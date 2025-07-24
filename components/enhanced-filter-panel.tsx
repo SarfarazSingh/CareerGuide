@@ -10,7 +10,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/component
 import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
-import type { Company, Filters, Industry, CompanySize, Location, FunctionalArea } from "../types"
+import type { Company, Filters } from "../types"
 
 interface EnhancedFilterPanelProps {
   filters: Filters
@@ -71,9 +71,9 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
     updateFilter(key, newValues)
   }
 
-  const getUniqueValues = <T extends keyof Company>(field: T): string[] => {
+  const getUniqueValues = (field: string): string[] => {
     const values = new Set<string>()
-    safeCompanies.forEach((company) => {
+    safeCompanies.forEach((company: any) => {
       const value = company[field]
       if (Array.isArray(value)) {
         value.forEach((v) => values.add(v))
@@ -84,10 +84,10 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
     return Array.from(values).sort()
   }
 
-  const industries = getUniqueValues("industry")
+  const industries = getUniqueValues("industrySector")
   const companySizes = getUniqueValues("size")
-  const locations = getUniqueValues("locations")
-  const functionalAreas = getUniqueValues("functionalAreas")
+  const locations = getUniqueValues("keyCities")
+  const functionalAreas = getUniqueValues("roles")
 
   return (
     <div className="w-80 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 flex flex-col h-full">
@@ -177,7 +177,7 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
                 <div key={size} className="flex items-center space-x-2">
                   <Checkbox
                     id={`size-${size}`}
-                    checked={safeFilters.companySizes.includes(size as CompanySize)}
+                    checked={safeFilters.companySizes.includes(size)}
                     onCheckedChange={() => toggleArrayFilter("companySizes", size)}
                   />
                   <Label htmlFor={`size-${size}`} className="text-sm flex-1 cursor-pointer">
@@ -212,7 +212,7 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
                   <div key={location} className="flex items-center space-x-2 py-1">
                     <Checkbox
                       id={`location-${location}`}
-                      checked={safeFilters.locations.includes(location as Location)}
+                      checked={safeFilters.locations.includes(location)}
                       onCheckedChange={() => toggleArrayFilter("locations", location)}
                     />
                     <Label htmlFor={`location-${location}`} className="text-sm flex-1 cursor-pointer">
@@ -248,7 +248,7 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
                   <div key={area} className="flex items-center space-x-2 py-1">
                     <Checkbox
                       id={`area-${area}`}
-                      checked={safeFilters.functionalAreas.includes(area as FunctionalArea)}
+                      checked={safeFilters.functionalAreas.includes(area)}
                       onCheckedChange={() => toggleArrayFilter("functionalAreas", area)}
                     />
                     <Label htmlFor={`area-${area}`} className="text-sm flex-1 cursor-pointer">
