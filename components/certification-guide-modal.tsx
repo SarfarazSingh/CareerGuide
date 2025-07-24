@@ -16,6 +16,8 @@ import {
   Users,
   CheckCircle,
   Star,
+  IndianRupee,
+  ShieldCheck
 } from "lucide-react"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
@@ -676,7 +678,7 @@ export function CertificationGuideModal({ isOpen, onClose }: CertificationGuideM
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
                     <Card>
                       <CardContent className="p-4 text-center">
-                        <DollarSign className="h-6 w-6 text-green-600 mx-auto mb-2" />
+                        <IndianRupee className="h-6 w-6 text-green-600 mx-auto mb-2" />
                         <div className="text-sm font-medium">Cost</div>
                         <div className="text-xs text-gray-600 dark:text-gray-400">{selectedCert.overview.cost}</div>
                       </CardContent>
@@ -895,28 +897,28 @@ export function CertificationGuideModal({ isOpen, onClose }: CertificationGuideM
                 <Card>
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2">
-                      <DollarSign className="h-5 w-5 text-green-600" />
-                      Veteran Funding Options
+                      <ShieldCheck className="h-5 w-5 text-green-600" />
+                      Veteran Transition Options
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       <div className="border rounded-lg p-4">
-                        <h4 className="font-semibold mb-2">GI Bill Benefits</h4>
+                        <h4 className="font-semibold mb-2">DGR Courses</h4>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Exam costs covered under GI Bill for approved certifications
+                        Directorate General Resettlement offers fully sponsored courses for eligible veterans to upskill in management, technology, and entrepreneurship.
                         </p>
                       </div>
                       <div className="border rounded-lg p-4">
-                        <h4 className="font-semibold mb-2">VET TEC Program</h4>
+                        <h4 className="font-semibold mb-2">Skill India Program</h4>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Full coverage for technology-focused certifications
+                          NSDC and Skill India partner with Armed Forces for certification-based programs in tech, logistics, and industrial skills.
                         </p>
                       </div>
                       <div className="border rounded-lg p-4">
                         <h4 className="font-semibold mb-2">Military Discounts</h4>
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Up to $200 savings with veteran status verification
+                          Educational institutions and edtech platforms (like Simplilearn, Coursera) offer discounts and scholarships for veterans with valid service certificates.
                         </p>
                       </div>
                     </div>
