@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { Search, Users, Award } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -7,12 +8,11 @@ export function HeroSection() {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900 px-6 py-12">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Find Your Next Career Opportunity</h2>
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Guided Ambitions - Find Your Next Career Opportunity</h2>
         <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
           Discover veteran-friendly companies that value your military experience and offer the career growth you
           deserve.
         </p>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
           <Card className="border-0 shadow-lg">
             <CardContent className="p-6 text-center">

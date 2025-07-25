@@ -20,20 +20,20 @@ export function AnimatedKPIBar({ data, onCertificationGuideClick }: AnimatedKPIB
     },
     {
       icon: Users,
-      label: "Veteran Friendly",
-      value: data.veteranFriendly,
+      label: "Locations",
+      value: "75+",
       color: "text-green-600 dark:text-green-400",
     },
     {
       icon: MapPin,
-      label: "Remote Opportunities",
-      value: data.remoteOpportunities,
+      label: "Roles",
+      value: "170+",
       color: "text-purple-600 dark:text-purple-400",
     },
     {
       icon: Shield,
-      label: "Clearance Required",
-      value: data.clearanceRequired,
+      label: "Industries",
+      value: "50+",
       color: "text-orange-600 dark:text-orange-400",
     },
   ]

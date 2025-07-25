@@ -157,40 +157,6 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
 
           <Separator />
 
-          {/* Company Size */}
-          <Collapsible open={openSections.size} onOpenChange={() => toggleSection("size")}>
-            <CollapsibleTrigger asChild>
-              <Button variant="ghost" className="w-full justify-between p-0 h-auto">
-                <div className="flex items-center space-x-2">
-                  <span className="font-medium">Company Size</span>
-                  {safeFilters.companySizes.length > 0 && (
-                    <Badge variant="secondary" className="text-xs">
-                      {safeFilters.companySizes.length}
-                    </Badge>
-                  )}
-                </div>
-                {openSections.size ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent className="mt-2 space-y-2">
-              {companySizes.map((size) => (
-                <div key={size} className="flex items-center space-x-2">
-                  <Checkbox
-                    id={`size-${size}`}
-                    checked={safeFilters.companySizes.includes(size)}
-                    onCheckedChange={() => toggleArrayFilter("companySizes", size)}
-                  />
-                  <Label htmlFor={`size-${size}`} className="text-sm flex-1 cursor-pointer">
-                    {size}
-                  </Label>
-                  <span className="text-xs text-gray-500">({safeFilterCounts.companySizes[size] || 0})</span>
-                </div>
-              ))}
-            </CollapsibleContent>
-          </Collapsible>
-
-          <Separator />
-
           {/* Location */}
           <Collapsible open={openSections.location} onOpenChange={() => toggleSection("location")}>
             <CollapsibleTrigger asChild>
@@ -232,7 +198,7 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
             <CollapsibleTrigger asChild>
               <Button variant="ghost" className="w-full justify-between p-0 h-auto">
                 <div className="flex items-center space-x-2">
-                  <span className="font-medium">Functional Area</span>
+                  <span className="font-medium">Roles</span>
                   {safeFilters.functionalAreas.length > 0 && (
                     <Badge variant="secondary" className="text-xs">
                       {safeFilters.functionalAreas.length}
@@ -262,51 +228,6 @@ export function EnhancedFilterPanel({ filters, onFiltersChange, companies, filte
           </Collapsible>
 
           <Separator />
-
-          {/* Preferences */}
-          <Collapsible open={openSections.preferences} onOpenChange={() => toggleSection("preferences")}>
-            <CollapsibleTrigger asChild>
-              <Button variant="ghost" className="w-full justify-between p-0 h-auto">
-                <span className="font-medium">Preferences</span>
-                {openSections.preferences ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-              </Button>
-            </CollapsibleTrigger>
-            <CollapsibleContent className="mt-2 space-y-3">
-              <div className="flex items-center space-x-2">
-                <Checkbox
-                  id="veteran-hiring"
-                  checked={safeFilters.veteranHiring}
-                  onCheckedChange={(checked) => updateFilter("veteranHiring", checked)}
-                />
-                <Label htmlFor="veteran-hiring" className="text-sm cursor-pointer">
-                  Veteran Hiring Programs
-                </Label>
-                <span className="text-xs text-gray-500">({safeFilterCounts.veteranHiring || 0})</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Checkbox
-                  id="remote-work"
-                  checked={safeFilters.remoteWork}
-                  onCheckedChange={(checked) => updateFilter("remoteWork", checked)}
-                />
-                <Label htmlFor="remote-work" className="text-sm cursor-pointer">
-                  Remote Work Available
-                </Label>
-                <span className="text-xs text-gray-500">({safeFilterCounts.remoteWork || 0})</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Checkbox
-                  id="security-clearance"
-                  checked={safeFilters.securityClearance}
-                  onCheckedChange={(checked) => updateFilter("securityClearance", checked)}
-                />
-                <Label htmlFor="security-clearance" className="text-sm cursor-pointer">
-                  Security Clearance Required
-                </Label>
-                <span className="text-xs text-gray-500">({safeFilterCounts.securityClearance || 0})</span>
-              </div>
-            </CollapsibleContent>
-          </Collapsible>
         </div>
       </div>
     </div>

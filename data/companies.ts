@@ -12,6 +12,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Jamshedpur", "Pune"],
     helpfulCertifications: ["PMP", "Six Sigma", "IOSH", "NEBOSH"],
     positioningTips: "Lead large teams, enforce safety, hit production targets under pressure",
+    website: "https://www.tata.com"
   },
 
   // EPC, Defence, Infrastructure
@@ -24,6 +25,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai", "Delhi"],
     helpfulCertifications: ["PMP", "Six Sigma", "Lean QC"],
     positioningTips: "Combat-zone engineering; resource planning in tough terrains",
+    website: "https://www.larsentoubro.com"
   },
 
   // Mining, Metals, Energy
@@ -36,6 +38,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Odisha", "Uttarakhand"],
     helpfulCertifications: ["Industrial-safety cert", "MBA-Ops"],
     positioningTips: "Mission-critical ops leadership; zero-incident mindset",
+    website: "https://www.vedantalimited.com"
   },
 
   // Ports, Energy, Logistics
@@ -48,6 +51,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mundra", "Goa", "Krishnapatnam"],
     helpfulCertifications: ["PMP", "Port-management", "NEBOSH"],
     positioningTips: "Port ops parallel to naval logistics / convoy control",
+    website: "https://www.adanigroup.com"
   },
 
   // Oil & Gas Companies
@@ -60,6 +64,7 @@ export const companies: Company[] = [
     keyCities: ["Delhi", "Mumbai", "Vadodara", "Dehradun"],
     helpfulCertifications: ["Govt safety", "PMP"],
     positioningTips: "Unit-maintenance & large-asset stewardship expertise",
+    website: "https://www.ongcindia.com"
   },
   {
     id: "6",
@@ -70,6 +75,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "New Delhi"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Safety compliance; production optimization",
+    website: "https://www.iocl.com"
   },
   {
     id: "7",
@@ -80,6 +86,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "New Delhi"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Safety compliance; production optimization",
+    website: "https://www.bharatpetroleum.in"
   },
   {
     id: "8",
@@ -90,6 +97,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Bengaluru"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.gailonline.com"
   },
   {
     id: "9",
@@ -100,6 +108,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Jamnagar"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Production optimization; safety compliance",
+    website: "https://www.ril.com"
   },
   {
     id: "10",
@@ -110,6 +119,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Visakhapatnam"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Production optimization; safety compliance",
+    website: "https://www.hindustanpetroleum.com"
   },
   {
     id: "11",
@@ -120,6 +130,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Kochi"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Production optimization; safety compliance",
+    website: "https://www.bharatpetroleum.in"
   },
   {
     id: "12",
@@ -130,6 +141,7 @@ export const companies: Company[] = [
     keyCities: ["Duliajan", "Noida"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Safety compliance; production optimization",
+    website: "https://www.oil-india.com"
   },
   {
     id: "13",
@@ -140,6 +152,7 @@ export const companies: Company[] = [
     keyCities: ["Mangalore", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Production optimization; safety compliance",
+    website: "https://www.mrpl.co.in"
   },
   {
     id: "14",
@@ -150,6 +163,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Gandhinagar"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Safety compliance; production optimization",
+    website: "https://www.gspcgroup.com"
   },
 
   // Auto Industry
@@ -162,6 +176,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Mumbai"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.tatamotors.com"
   },
   {
     id: "16",
@@ -172,6 +187,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Pune"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.mahindra.com"
   },
   {
     id: "17",
@@ -182,6 +198,7 @@ export const companies: Company[] = [
     keyCities: ["Pune"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.bajajauto.com"
   },
   {
     id: "18",
@@ -192,6 +209,7 @@ export const companies: Company[] = [
     keyCities: ["Gurgaon", "Manesar"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.marutisuzuki.com"
   },
   {
     id: "19",
@@ -202,6 +220,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Sriperumbudur"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.hyundai.com/in"
   },
   {
     id: "20",
@@ -212,6 +231,7 @@ export const companies: Company[] = [
     keyCities: ["Greater Noida", "Tapukara"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.hondacarindia.com"
   },
   {
     id: "21",
@@ -222,6 +242,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Bidadi"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.toyotabharat.com"
   },
   {
     id: "22",
@@ -232,6 +253,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Gurgaon"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.heromotocorp.com"
   },
   {
     id: "23",
@@ -242,6 +264,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Hosur"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.tvsmotor.com"
   },
   {
     id: "24",
@@ -252,6 +275,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Hosur"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.ashokleyland.com"
   },
   {
     id: "25",
@@ -262,6 +286,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Pithampur"],
     helpfulCertifications: ["Lean Manufacturing", "Six Sigma"],
     positioningTips: "Lead cross-functional teams; drive continuous improvement",
+    website: "https://www.eichermotors.com"
   },
 
   // Steel Industry
@@ -274,6 +299,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Vijayanagar"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.jsw.in/steel"
   },
   {
     id: "27",
@@ -284,6 +310,7 @@ export const companies: Company[] = [
     keyCities: ["Jamshedpur", "Kolkata"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.tatasteel.com"
   },
   {
     id: "28",
@@ -294,6 +321,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Hisar"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.jindalsteelpower.com"
   },
   {
     id: "29",
@@ -304,6 +332,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Bhilai"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.sail.co.in"
   },
   {
     id: "30",
@@ -314,6 +343,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Hazira"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.amns.in"
   },
   {
     id: "31",
@@ -324,6 +354,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Hisar"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.jindalstainless.com"
   },
   {
     id: "32",
@@ -334,6 +365,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Hazira"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Manage large production teams; ensure safety compliance",
+    website: "https://www.essar.com"
   },
 
   // Mining Industry
@@ -346,6 +378,7 @@ export const companies: Company[] = [
     keyCities: ["Kolkata", "Ranchi"],
     helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
     positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.coalindia.in"
   },
   {
     id: "34",
@@ -356,6 +389,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Donimalai"],
     helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
     positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.nmdc.co.in"
   },
 
   // Metals Industry
@@ -368,6 +402,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Renukoot"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Production optimization; quality control",
+    website: "https://www.hindalco.com"
   },
   {
     id: "36",
@@ -378,6 +413,7 @@ export const companies: Company[] = [
     keyCities: ["Bhubaneswar", "Angul"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Production optimization; quality control",
+    website: "https://nalcoindia.com"
   },
   {
     id: "37",
@@ -388,6 +424,7 @@ export const companies: Company[] = [
     keyCities: ["Udaipur", "Mumbai"],
     helpfulCertifications: ["Six Sigma", "ISO 9001"],
     positioningTips: "Production optimization; quality control",
+    website: "https://www.hzlindia.com"
   },
 
   // Energy Industry
@@ -400,6 +437,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Noida"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.ntpc.co.in"
   },
   {
     id: "39",
@@ -410,6 +448,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mundra"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.adanipower.com"
   },
   {
     id: "40",
@@ -420,6 +459,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Trombay"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.tatapower.com"
   },
   {
     id: "41",
@@ -430,6 +470,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Vijayanagar"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.jsw.in/energy"
   },
   {
     id: "42",
@@ -440,6 +481,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Surat"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.torrentpower.com"
   },
   {
     id: "43",
@@ -450,6 +492,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Noida"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.reliancepower.co.in"
   },
   {
     id: "44",
@@ -460,6 +503,7 @@ export const companies: Company[] = [
     keyCities: ["Gurgaon", "Delhi"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power transmission; project execution",
+    website: "https://www.powergridindia.com"
   },
   {
     id: "45",
@@ -470,6 +514,7 @@ export const companies: Company[] = [
     keyCities: ["Faridabad", "Delhi"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Renewable energy project execution",
+    website: "https://www.nhpcindia.com"
   },
   {
     id: "46",
@@ -480,6 +525,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Jaisalmer"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Renewable energy project execution",
+    website: "https://www.adanigreenenergy.com"
   },
   {
     id: "47",
@@ -490,6 +536,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Nashik"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Renewable energy project execution",
+    website: "https://www.suzlon.com"
   },
   {
     id: "48",
@@ -500,6 +547,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Gurgaon"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Renewable energy project execution",
+    website: "https://www.renewpower.in"
   },
   {
     id: "49",
@@ -510,6 +558,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power transmission; project execution",
+    website: "https://www.adanitransmission.com"
   },
   {
     id: "50",
@@ -520,6 +569,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power transmission; project execution",
+    website: "https://www.sterlitepower.com"
   },
   {
     id: "51",
@@ -530,6 +580,7 @@ export const companies: Company[] = [
     keyCities: ["New Delhi", "Noida"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Power generation; plant maintenance",
+    website: "https://www.bhel.com"
   },
 
   // Defence Industry
@@ -542,6 +593,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Ghaziabad"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Defence project execution; quality control",
+    website: "https://www.bel-india.in"
   },
   {
     id: "53",
@@ -552,6 +604,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Hyderabad"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Aerospace project execution; quality control",
+    website: "https://hal-india.co.in"
   },
   {
     id: "54",
@@ -562,6 +615,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Kanchanbagh"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Defence project execution; quality control",
+    website: "https://bdl-india.in"
   },
   {
     id: "55",
@@ -572,6 +626,7 @@ export const companies: Company[] = [
     keyCities: ["Nagpur", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Defence project execution; quality control",
+    website: "https://www.solargroup.com"
   },
   {
     id: "56",
@@ -582,6 +637,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Nhava"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Defence project execution; quality control",
+    website: "https://mazagondock.in"
   },
   {
     id: "57",
@@ -592,6 +648,7 @@ export const companies: Company[] = [
     keyCities: ["Kolkata", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Defence project execution; quality control",
+    website: "https://www.grse.in"
   },
   {
     id: "58",
@@ -602,6 +659,7 @@ export const companies: Company[] = [
     keyCities: ["Kochi", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Defence project execution; quality control",
+    website: "https://cochinshipyard.in"
   },
 
   // E-commerce & Logistics
@@ -614,6 +672,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Bengaluru", "Delhi NCR", "Mumbai", "Pune"],
     helpfulCertifications: ["Six Sigma GB", "CSCP"],
     positioningTips: "Bias-for-action & convoy-style logistics under stress",
+    website: "https://www.amazon.in"
   },
   {
     id: "60",
@@ -624,6 +683,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Mumbai", "NCR"],
     helpfulCertifications: ["CSCP", "WMS tools"],
     positioningTips: "Crisis logistics; SLA discipline",
+    website: "https://www.flipkart.com"
   },
   {
     id: "61",
@@ -634,6 +694,7 @@ export const companies: Company[] = [
     keyCities: ["Gurugram", "Bengaluru"],
     helpfulCertifications: ["Data analytics bootcamp"],
     positioningTips: "Data-driven ops + mission command style",
+    website: "https://www.delhivery.com"
   },
   {
     id: "62",
@@ -644,6 +705,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Pune", "Chennai"],
     helpfulCertifications: ["SCM diploma", "SAP MM"],
     positioningTips: "Fleet command = army transport regiment",
+    website: "https://www.mahindralogistics.com"
   },
   {
     id: "63",
@@ -654,6 +716,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Kolkata", "Delhi"],
     helpfulCertifications: ["IATA DGR", "Lean"],
     positioningTips: "Global SOP adherence ≈ military SOPs",
+    website: "https://www.dhl.com/in-en/home.html"
   },
   {
     id: "64",
@@ -664,6 +727,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Kolkata", "Delhi"],
     helpfulCertifications: ["IATA DGR", "Lean"],
     positioningTips: "Global SOP adherence ≈ military SOPs",
+    website: "https://www.bluedart.com"
   },
   {
     id: "65",
@@ -674,6 +738,7 @@ export const companies: Company[] = [
     keyCities: ["Hubli", "Bengaluru"],
     helpfulCertifications: ["CSCP", "WMS tools"],
     positioningTips: "Crisis logistics; SLA discipline",
+    website: "https://www.vrllogistics.com"
   },
   {
     id: "66",
@@ -684,6 +749,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Bengaluru"],
     helpfulCertifications: ["IATA DGR", "Lean"],
     positioningTips: "Global SOP adherence ≈ military SOPs",
+    website: "https://www.allcargologistics.com"
   },
   {
     id: "67",
@@ -694,6 +760,7 @@ export const companies: Company[] = [
     keyCities: ["Delhi", "Mumbai"],
     helpfulCertifications: ["CSCP", "WMS tools"],
     positioningTips: "Crisis logistics; SLA discipline",
+    website: "https://www.safexpress.com"
   },
   {
     id: "68",
@@ -704,6 +771,7 @@ export const companies: Company[] = [
     keyCities: ["Gurgaon", "Mumbai"],
     helpfulCertifications: ["CSCP", "WMS tools"],
     positioningTips: "Crisis logistics; SLA discipline",
+    website: "https://www.tciexpress.in"
   },
   {
     id: "69",
@@ -714,6 +782,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Mumbai"],
     helpfulCertifications: ["IATA DGR", "Lean"],
     positioningTips: "Global SOP adherence ≈ military SOPs",
+    website: "https://www.gati.com"
   },
   {
     id: "70",
@@ -724,6 +793,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Mumbai"],
     helpfulCertifications: ["CSCP", "WMS tools"],
     positioningTips: "Crisis logistics; SLA discipline",
+    website: "https://www.dtdc.in"
   },
 
   // IT Services
@@ -736,6 +806,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Pune", "Hyderabad"],
     helpfulCertifications: ["CISSP", "CISM", "ITIL"],
     positioningTips: "Securing classified comms → securing client data",
+    website: "https://www.infosys.com"
   },
   {
     id: "72",
@@ -746,6 +817,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Gurugram", "Pune"],
     helpfulCertifications: ["AWS/Azure", "Agile-PM"],
     positioningTips: "Process discipline; cross-functional mission planning",
+    website: "https://www.ibm.com/in-en"
   },
   {
     id: "73",
@@ -756,6 +828,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Pune"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.tcs.com"
   },
   {
     id: "74",
@@ -766,6 +839,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Pune", "Hyderabad"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.wipro.com"
   },
   {
     id: "75",
@@ -776,6 +850,7 @@ export const companies: Company[] = [
     keyCities: ["Noida", "Bengaluru", "Chennai"],
     helpfulCertifications: ["CISSP", "PMP", "ITIL"],
     positioningTips: "Securing client data; large-scale project coordination",
+    website: "https://www.hcltech.com"
   },
   {
     id: "76",
@@ -786,6 +861,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Hyderabad", "Mumbai"],
     helpfulCertifications: ["CISSP", "PMP", "ITIL"],
     positioningTips: "Securing client data; large-scale project coordination",
+    website: "https://www.techmahindra.com"
   },
   {
     id: "77",
@@ -796,6 +872,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Bengaluru", "Pune"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.ltimindtree.com"
   },
   {
     id: "78",
@@ -806,6 +883,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Hyderabad", "Mumbai"],
     helpfulCertifications: ["AWS/Azure", "PMP", "ITIL"],
     positioningTips: "Cloud infrastructure management; security implementation",
+    website: "https://www.oracle.com/in"
   },
   {
     id: "79",
@@ -816,6 +894,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Bengaluru", "Chennai", "Hyderabad", "Pune"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.capgemini.com/in-en"
   },
   {
     id: "80",
@@ -826,6 +905,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Gurugram", "Mumbai", "Pune", "Hyderabad"],
     helpfulCertifications: ["AWS/Azure", "Agile-PM"],
     positioningTips: "Process discipline; cross-functional mission planning",
+    website: "https://www.accenture.com/in-en"
   },
   {
     id: "81",
@@ -836,6 +916,7 @@ export const companies: Company[] = [
     keyCities: ["Chennai", "Mumbai", "Bengaluru", "Hyderabad", "Pune"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.cognizant.com/in/en"
   },
   {
     id: "82",
@@ -846,6 +927,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Pune", "Mumbai"],
     helpfulCertifications: ["CISSP", "PMP", "ITIL"],
     positioningTips: "Securing client data; large-scale project coordination",
+    website: "https://www.mphasis.com"
   },
   {
     id: "83",
@@ -856,6 +938,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Nagpur", "Hyderabad"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.persistent.com"
   },
   {
     id: "84",
@@ -866,6 +949,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Chennai", "Pune"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Project execution; quality control",
+    website: "https://www.tataelxsi.com"
   },
   {
     id: "85",
@@ -876,6 +960,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Bengaluru", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Project execution; quality control",
+    website: "https://www.kpit.com"
   },
   {
     id: "86",
@@ -886,6 +971,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Hyderabad", "Mumbai"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.zensar.com"
   },
   {
     id: "87",
@@ -896,6 +982,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Bengaluru", "Mumbai"],
     helpfulCertifications: ["PMP", "Six Sigma"],
     positioningTips: "Project execution; quality control",
+    website: "https://www.cyient.com"
   },
   {
     id: "88",
@@ -906,6 +993,7 @@ export const companies: Company[] = [
     keyCities: ["Noida", "Pune", "Chennai"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.birlasoft.com"
   },
   {
     id: "89",
@@ -916,6 +1004,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai", "Pune"],
     helpfulCertifications: ["CISSP", "PMP", "ITIL"],
     positioningTips: "Securing client data; large-scale project coordination",
+    website: "https://hexaware.com"
   },
   {
     id: "90",
@@ -926,6 +1015,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Chennai", "Pune"],
     helpfulCertifications: ["PMP", "Agile-Scrum"],
     positioningTips: "Large-scale rollout = ops room coordination",
+    website: "https://www.ltimindtree.com" // Mindtree merged with LTIMindtree
   },
   {
     id: "91",
@@ -936,6 +1026,7 @@ export const companies: Company[] = [
     keyCities: ["Noida", "Bengaluru", "Mumbai"],
     helpfulCertifications: ["CISSP", "PMP", "ITIL"],
     positioningTips: "Securing client data; large-scale project coordination",
+    website: "https://www.coforge.com" // NIIT Technologies rebranded to Coforge
   },
   {
     id: "92",
@@ -946,6 +1037,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Pune", "Chennai"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.infosysbpm.com"
   },
   {
     id: "93",
@@ -956,6 +1048,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Pune", "Gurgaon"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.wns.com"
   },
   {
     id: "94",
@@ -966,6 +1059,7 @@ export const companies: Company[] = [
     keyCities: ["Gurgaon", "Hyderabad", "Bengaluru"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.genpact.com"
   },
   {
     id: "95",
@@ -976,6 +1070,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai", "Bengaluru"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.firstsource.com"
   },
   {
     id: "96",
@@ -986,6 +1081,7 @@ export const companies: Company[] = [
     keyCities: ["Noida", "Pune", "Chennai"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.exlservice.com"
   },
   {
     id: "97",
@@ -996,6 +1092,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Mumbai", "Hyderabad"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.teamhgs.com"
   },
   {
     id: "98",
@@ -1006,6 +1103,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai", "Kolkata"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.tcs.com/what-we-do/services/business-process-services"
   },
   {
     id: "99",
@@ -1016,6 +1114,7 @@ export const companies: Company[] = [
     keyCities: ["Bengaluru", "Pune", "Hyderabad"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.wipro.com/business-process-outsourcing"
   },
   {
     id: "100",
@@ -1026,6 +1125,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Hyderabad", "Mumbai"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.techmahindra.com/en-in/business-process-outsourcing"
   },
   {
     id: "101",
@@ -1036,6 +1136,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Bengaluru", "Chennai"],
     helpfulCertifications: ["Six Sigma", "Lean"],
     positioningTips: "Process optimization; quality control",
+    website: "https://www.capgemini.com/in-en/service/business-services/business-process-outsourcing-bpo"
   },
 
   // Banking & Financial Services
@@ -1048,6 +1149,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Bengaluru"],
     helpfulCertifications: ["MBA/Finance cert", "PMP"],
     positioningTips: "High-integrity process control akin to ops rooms",
+    website: "https://www.jpmorganchase.com"
   },
   {
     id: "103",
@@ -1058,6 +1160,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.sbi.co.in"
   },
   {
     id: "104",
@@ -1068,6 +1171,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.hdfcbank.com"
   },
   {
     id: "105",
@@ -1078,6 +1182,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.icicibank.com"
   },
   {
     id: "106",
@@ -1088,6 +1193,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.axisbank.com"
   },
   {
     id: "107",
@@ -1098,6 +1204,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.kotak.com"
   },
   {
     id: "108",
@@ -1108,6 +1215,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.indusind.com"
   },
   {
     id: "109",
@@ -1118,6 +1226,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.yesbank.in"
   },
   {
     id: "110",
@@ -1128,6 +1237,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.idfcfirstbank.com"
   },
   {
     id: "111",
@@ -1138,6 +1248,7 @@ export const companies: Company[] = [
     keyCities: ["Jaipur", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.aubank.in"
   },
   {
     id: "112",
@@ -1148,6 +1259,7 @@ export const companies: Company[] = [
     keyCities: ["Pune", "Mumbai"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control akin to ops rooms",
+    website: "https://www.bajajfinserv.in"
   },
   {
     id: "113",
@@ -1158,6 +1270,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mumbai"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.hdbfs.com"
   },
   {
     id: "114",
@@ -1168,6 +1281,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.stfc.in"
   },
   {
     id: "115",
@@ -1178,6 +1292,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.mahindrafinance.com"
   },
   {
     id: "116",
@@ -1188,6 +1303,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.ltfs.com"
   },
   {
     id: "117",
@@ -1198,6 +1314,7 @@ export const companies: Company[] = [
     keyCities: ["Kochi", "Mumbai"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.muthootfinance.com"
   },
   {
     id: "118",
@@ -1208,6 +1325,7 @@ export const companies: Company[] = [
     keyCities: ["Thrissur", "Mumbai"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.manappuram.com"
   },
   {
     id: "119",
@@ -1218,6 +1336,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.iifl.com"
   },
   {
     id: "120",
@@ -1228,6 +1347,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi"],
     helpfulCertifications: ["MBA/Finance cert", "IRM Risk-Mgmt"],
     positioningTips: "High-integrity process control; operational risk management",
+    website: "https://www.piramal.com/businesses/piramal-capital-housing-finance"
   },
 
   // Consulting
@@ -1240,6 +1360,7 @@ export const companies: Company[] = [
     keyCities: ["NCR", "Mumbai", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www2.deloitte.com/in/en.html"
   },
   {
     id: "122",
@@ -1250,6 +1371,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://home.kpmg/in/en/home.html"
   },
   {
     id: "123",
@@ -1260,6 +1382,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.ey.com/en_in"
   },
   {
     id: "124",
@@ -1270,6 +1393,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.pwc.in"
   },
   {
     id: "125",
@@ -1280,6 +1404,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.mckinsey.com/in"
   },
   {
     id: "126",
@@ -1290,6 +1415,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.bcg.com/en-in"
   },
   {
     id: "127",
@@ -1300,6 +1426,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.bain.com/locations/asia-pacific/india"
   },
   {
     id: "128",
@@ -1310,6 +1437,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.tcs.com"
   },
   {
     id: "129",
@@ -1320,6 +1448,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.infosys.com/services/consulting.html"
   },
   {
     id: "130",
@@ -1330,6 +1459,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["MBA", "PMP"],
     positioningTips: "Strategic planning; stakeholder management from joint ops",
+    website: "https://www.wipro.com/consulting"
   },
 
   // Construction & Infrastructure
@@ -1342,6 +1472,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Chennai", "Delhi"],
     helpfulCertifications: ["PMP", "Six Sigma", "Lean QC"],
     positioningTips: "Combat-zone engineering; resource planning in tough terrains",
+    website: "https://www.larsentoubro.com"
   },
   {
     id: "132",
@@ -1352,6 +1483,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Chennai"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.tataprojects.com"
   },
   {
     id: "133",
@@ -1362,6 +1494,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.adaniinfra.com"
   },
   {
     id: "134",
@@ -1372,6 +1505,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Navi Mumbai"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.rinfra.com"
   },
   {
     id: "135",
@@ -1382,6 +1516,7 @@ export const companies: Company[] = [
     keyCities: ["Delhi", "Hyderabad", "Bengaluru"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.gmrgroup.in"
   },
   {
     id: "136",
@@ -1392,6 +1527,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Hyderabad", "Bengaluru"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.gvk.com"
   },
   {
     id: "137",
@@ -1402,6 +1538,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.hccindia.com"
   },
   {
     id: "138",
@@ -1412,6 +1549,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Pune"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.shapoorjipallonji.com"
   },
   {
     id: "139",
@@ -1422,6 +1560,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Chennai"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.afcons.com"
   },
   {
     id: "140",
@@ -1432,6 +1571,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Chennai", "Bengaluru"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.ncclimited.com"
   },
   {
     id: "141",
@@ -1442,6 +1582,7 @@ export const companies: Company[] = [
     keyCities: ["Bhopal", "Mumbai", "Delhi"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.dilipbuildcon.com"
   },
   {
     id: "142",
@@ -1452,6 +1593,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Pune", "Ahmedabad"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.irb.co.in"
   },
   {
     id: "143",
@@ -1462,6 +1604,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.sadbhaveng.com"
   },
   {
     id: "144",
@@ -1472,6 +1615,7 @@ export const companies: Company[] = [
     keyCities: ["Hyderabad", "Chennai", "Bengaluru"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.knrcl.com"
   },
   {
     id: "145",
@@ -1482,6 +1626,7 @@ export const companies: Company[] = [
     keyCities: ["Nashik", "Mumbai", "Pune"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.ashokabuildcon.com"
   },
   {
     id: "146",
@@ -1492,6 +1637,7 @@ export const companies: Company[] = [
     keyCities: ["Agra", "Delhi", "Kanpur"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.pncinfratech.com"
   },
   {
     id: "147",
@@ -1502,6 +1648,7 @@ export const companies: Company[] = [
     keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.montecarloltd.com"
   },
   {
     id: "148",
@@ -1512,6 +1659,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Pune"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.jkumar.com"
   },
   {
     id: "149",
@@ -1522,6 +1670,7 @@ export const companies: Company[] = [
     keyCities: ["Mumbai", "Delhi", "Bengaluru"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.hccindia.com"
   },
   {
     id: "150",
@@ -1532,1336 +1681,2282 @@ export const companies: Company[] = [
     keyCities: ["Kolkata", "Mumbai", "Delhi"],
     helpfulCertifications: ["PMP", "NEBOSH", "IOSH"],
     positioningTips: "Project execution; safety compliance",
+    website: "https://www.simplexinfra.com"
   },
 
-  // Construction Equipment
+  // Retail
   {
     id: "151",
-    name: "Tata Hitachi Construction Machinery",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Jamshedpur", "Kolkata", "Pune"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Reliance Retail",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.relianceretail.com"
   },
   {
     id: "152",
-    name: "JCB India",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Delhi", "Pune", "Jaipur"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Future Group",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.futuregroup.in"
   },
   {
     id: "153",
-    name: "Komatsu India",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Chennai", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Aditya Birla Fashion and Retail",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.abfrl.com"
   },
   {
     id: "154",
-    name: "L&T Construction Equipment",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Mumbai", "Chennai", "Delhi"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Shoppers Stop",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.shoppersstop.com"
   },
   {
     id: "155",
-    name: "Caterpillar India",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Chennai", "Pune", "Delhi"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Pantaloons",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.pantaloons.com"
   },
   {
     id: "156",
-    name: "Volvo Construction Equipment India",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
+    name: "Lifestyle International",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
     keyCities: ["Bengaluru", "Mumbai", "Delhi"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.lifestylestores.com"
   },
   {
     id: "157",
-    name: "Terex India",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Noida", "Mumbai", "Chennai"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Westside",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.westside.com"
   },
   {
     id: "158",
-    name: "Escorts Construction Equipment",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Faridabad", "Delhi", "Mumbai"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "V-Mart Retail",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["New Delhi", "Lucknow", "Patna"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.vmartretail.com"
   },
   {
     id: "159",
-    name: "Action Construction Equipment",
-    industrySector: "Construction Equipment",
-    roles: ["Service Engineer", "Sales Manager", "Product Manager"],
-    operationsFocus: "Construction equipment manufacturing",
-    keyCities: ["Ballabgarh", "Delhi", "Mumbai"],
-    helpfulCertifications: ["Technical certifications", "Sales certifications"],
-    positioningTips: "Technical expertise; customer relationship management",
+    name: "Reliance Trends",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.reliancetrends.com"
   },
-
-  // Cement Industry
   {
     id: "160",
-    name: "UltraTech Cement",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Mumbai", "Adityanagar", "Kotputli"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "D-Mart (Avenue Supermarts)",
+    industrySector: "Retail",
+    roles: ["Store Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Retail stores; supply chain",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Inventory management; customer service excellence",
+    website: "https://www.dmartindia.com"
   },
+
+  // Consumer Goods
   {
     id: "161",
-    name: "Ambuja Cements",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Mumbai", "Chandrapur", "Bhatapara"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Hindustan Unilever",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Mumbai", "Bengaluru", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.hul.co.in"
   },
   {
     id: "162",
-    name: "ACC Limited",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Mumbai", "Chaibasa", "Kymore"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Procter & Gamble India",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Mumbai", "Hyderabad", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.pg.com/en_IN"
   },
   {
     id: "163",
-    name: "Shree Cement",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Beawar", "Jaipur", "Aurangabad"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Nestlé India",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.nestle.in"
   },
   {
     id: "164",
-    name: "Grasim Industries",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Mumbai", "Adityanagar", "Kotputli"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Dabur India",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["New Delhi", "Ghaziabad"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.dabur.com"
   },
   {
     id: "165",
-    name: "Dalmia Bharat",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Chennai", "Ariyalur", "Dalmiapuram"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Godrej Consumer Products",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.godrejcp.com"
   },
   {
     id: "166",
-    name: "JK Cement",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Kanpur", "Nimbahera", "Mangrol"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Marico",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://marico.com"
   },
   {
     id: "167",
-    name: "Birla Corporation",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Kolkata", "Satna", "Raipur"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Britannia Industries",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://britannia.co.in"
   },
   {
     id: "168",
-    name: "HeidelbergCement India",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["Mumbai", "Damoh", "Ammasandra"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Emami",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Kolkata", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.emamiltd.in"
   },
   {
     id: "169",
-    name: "Orient Cement",
-    industrySector: "Cement",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Cement manufacturing plants",
-    keyCities: ["New Delhi", "Devapur", "Jalgaon"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Colgate-Palmolive India",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.colgatepalmolive.co.in"
   },
-
-  // Chemicals
   {
     id: "170",
-    name: "Reliance Industries",
-    industrySector: "Energy, Petrochemicals",
-    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
-    operationsFocus: "Refineries; petrochemical plants",
-    keyCities: ["Mumbai", "Jamnagar"],
-    helpfulCertifications: ["PMP", "Six Sigma"],
-    positioningTips: "Production optimization; safety compliance",
+    name: "ITC Limited",
+    industrySector: "Consumer Goods",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "FMCG manufacturing; distribution",
+    keyCities: ["Kolkata", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
+    positioningTips: "Production optimization; supply chain efficiency",
+    website: "https://www.itcportal.com"
   },
+
+  // Pharmaceuticals
   {
     id: "171",
-    name: "Tata Chemicals",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Chemical manufacturing plants",
-    keyCities: ["Mumbai", "Mithapur", "Haldia"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Sun Pharmaceutical Industries",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Vadodara", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.sunpharma.com"
   },
   {
     id: "172",
-    name: "UPL Limited",
-    industrySector: "Agrochemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Agrochemical manufacturing plants",
-    keyCities: ["Mumbai", "Ankleshwar", "Vapi"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Dr. Reddy’s Laboratories",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Hyderabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.drreddys.com"
   },
   {
     id: "173",
-    name: "Asian Paints",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Paints manufacturing plants",
-    keyCities: ["Mumbai", "Ankleshwar", "Sriperumbudur"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Cipla",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Pune", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.cipla.com"
   },
   {
     id: "174",
-    name: "Pidilite Industries",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Adhesives manufacturing plants",
-    keyCities: ["Mumbai", "Vapi", "Mahad"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Lupin",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Pune", "Nagpur"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.lupin.com"
   },
   {
     id: "175",
-    name: "SRF Limited",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Chemical manufacturing plants",
-    keyCities: ["New Delhi", "Manali", "Vapi"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Aurobindo Pharma",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Hyderabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.aurobindo.com"
   },
   {
     id: "176",
-    name: "Gujarat Alkalies and Chemicals",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Chemical manufacturing plants",
-    keyCities: ["Vadodara", "Dahej", "Ankleshwar"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Cadila Healthcare",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.zyduscadila.com"
   },
   {
     id: "177",
-    name: "Aarti Industries",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Chemical manufacturing plants",
-    keyCities: ["Mumbai", "Tarapur", "Vapi"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Torrent Pharmaceuticals",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.torrentpharma.com"
   },
   {
     id: "178",
-    name: "Deepak Nitrite",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Chemical manufacturing plants",
-    keyCities: ["Vadodara", "Dahej", "Taloja"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Glenmark Pharmaceuticals",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Nashik", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.glenmarkpharma.com"
   },
   {
     id: "179",
-    name: "Atul Limited",
-    industrySector: "Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Chemical manufacturing plants",
-    keyCities: ["Valsad", "Ankleshwar", "Tarapur"],
-    helpfulCertifications: ["Six Sigma", "ISO 9001"],
-    positioningTips: "Manage large production teams; ensure safety compliance",
+    name: "Biocon",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Bengaluru", "Hyderabad", "Mumbai"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.biocon.com"
   },
-
-  // Textiles
   {
     id: "180",
-    name: "Reliance Textiles",
-    industrySector: "Textiles, Chemicals",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Mumbai", "Ahmedabad", "Surat"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "181",
-    name: "Arvind Limited",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Ahmedabad", "Bengaluru", "Mumbai"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "182",
-    name: "Raymond Limited",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Mumbai", "Nagpur", "Chhindwara"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "183",
-    name: "Welspun India",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Mumbai", "Anjar", "Vapi"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "184",
-    name: "Trident Limited",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Ludhiana", "Barnala", "Budni"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "185",
-    name: "Vardhman Textiles",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Ludhiana", "Baddi", "Nalagarh"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "186",
-    name: "Grasim Industries (Textiles)",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Mumbai", "Nagda", "Kharach"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "187",
-    name: "Bombay Dyeing",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Mumbai", "Pune", "Aurangabad"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "188",
-    name: "Alok Industries",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["Mumbai", "Vapi", "Silvassa"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
-  },
-  {
-    id: "189",
-    name: "Sutlej Textiles and Industries",
-    industrySector: "Textiles",
-    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
-    operationsFocus: "Textile manufacturing plants",
-    keyCities: ["New Delhi", "Kathua", "Baddi"],
-    helpfulCertifications: ["Six Sigma", "Lean Manufacturing"],
-    positioningTips: "Manage large production teams; ensure quality control",
+    name: "Alkem Laboratories",
+    industrySector: "Pharmaceuticals",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Pharma manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Daman", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.alkemlabs.com"
   },
 
   // Telecommunications
   {
-    id: "190",
+    id: "181",
     name: "Bharti Airtel",
     industrySector: "Telecommunications",
-    roles: ["Network Engineer", "Project Manager", "Operations Manager"],
-    operationsFocus: "Telecommunications network operations",
+    roles: ["Network Operations Manager", "Project Manager", "Field Operations Lead"],
+    operationsFocus: "Network infrastructure; telecom services",
     keyCities: ["New Delhi", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["CCNA", "PMP", "ITIL"],
-    positioningTips: "Network management; project execution",
+    helpfulCertifications: ["CCNA", "PMP"],
+    positioningTips: "Network reliability; project execution",
+    website: "https://www.airtel.in"
+  },
+  {
+    id: "182",
+    name: "Reliance Jio",
+    industrySector: "Telecommunications",
+    roles: ["Network Operations Manager", "Project Manager", "Field Operations Lead"],
+    operationsFocus: "Network infrastructure; telecom services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CCNA", "PMP"],
+    positioningTips: "Network reliability; project execution",
+    website: "https://www.jio.com"
+  },
+  {
+    id: "183",
+    name: "Vodafone Idea",
+    industrySector: "Telecommunications",
+    roles: ["Network Operations Manager", "Project Manager", "Field Operations Lead"],
+    operationsFocus: "Network infrastructure; telecom services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CCNA", "PMP"],
+    positioningTips: "Network reliability; project execution",
+    website: "https://www.myvi.in"
+  },
+  {
+    id: "184",
+    name: "BSNL",
+    industrySector: "Telecommunications",
+    roles: ["Network Operations Manager", "Project Manager", "Field Operations Lead"],
+    operationsFocus: "Network infrastructure; telecom services",
+    keyCities: ["New Delhi", "Mumbai", "Chennai"],
+    helpfulCertifications: ["CCNA", "PMP"],
+    positioningTips: "Network reliability; project execution",
+    website: "https://www.bsnl.co.in"
+  },
+  {
+    id: "185",
+    name: "Tata Communications",
+    industrySector: "Telecommunications",
+    roles: ["Network Operations Manager", "Project Manager", "Field Operations Lead"],
+    operationsFocus: "Network infrastructure; telecom services",
+    keyCities: ["Mumbai", "Delhi", "Chennai"],
+    helpfulCertifications: ["CCNA", "PMP"],
+    positioningTips: "Network reliability; project execution",
+    website: "https://www.tatacommunications.com"
+  },
+
+  // Food & Beverage
+  {
+    id: "186",
+    name: "Parle Agro",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Beverage manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.parleagro.com"
+  },
+  {
+    id: "187",
+    name: "Coca-Cola India",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Beverage manufacturing; distribution",
+    keyCities: ["Gurgaon", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.coca-colaindia.com"
+  },
+  {
+    id: "188",
+    name: "PepsiCo India",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Beverage and snack manufacturing; distribution",
+    keyCities: ["Gurgaon", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.pepsicoindia.co.in"
+  },
+  {
+    id: "189",
+    name: "Amul (GCMMF)",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Dairy products manufacturing; distribution",
+    keyCities: ["Anand", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.amul.com"
+  },
+  {
+    id: "190",
+    name: "Haldiram’s",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Snack manufacturing; distribution",
+    keyCities: ["Delhi", "Noida", "Nagpur"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.haldiram.com"
   },
   {
     id: "191",
-    name: "Vodafone Idea",
-    industrySector: "Telecommunications",
-    roles: ["Network Engineer", "Project Manager", "Operations Manager"],
-    operationsFocus: "Telecommunications network operations",
-    keyCities: ["Mumbai", "Pune", "Ahmedabad"],
-    helpfulCertifications: ["CCNA", "PMP", "ITIL"],
-    positioningTips: "Network management; project execution",
+    name: "Mother Dairy",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Dairy products manufacturing; distribution",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.motherdairy.com"
   },
   {
     id: "192",
-    name: "Reliance Jio",
-    industrySector: "Telecommunications",
-    roles: ["Network Engineer", "Project Manager", "Operations Manager"],
-    operationsFocus: "Telecommunications network operations",
-    keyCities: ["Mumbai", "Navi Mumbai", "Chennai"],
-    helpfulCertifications: ["CCNA", "PMP", "ITIL"],
-    positioningTips: "Network management; project execution",
+    name: "Bikanervala",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Snack and sweets manufacturing; distribution",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.bikanervala.com"
   },
   {
     id: "193",
-    name: "BSNL",
-    industrySector: "Telecommunications",
-    roles: ["Network Engineer", "Project Manager", "Operations Manager"],
-    operationsFocus: "Telecommunications network operations",
-    keyCities: ["New Delhi", "Chennai", "Hyderabad"],
-    helpfulCertifications: ["CCNA", "PMP", "ITIL"],
-    positioningTips: "Network management; project execution",
+    name: "Parle Products",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Biscuit and snack manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.parleproducts.com"
   },
   {
     id: "194",
-    name: "MTNL",
-    industrySector: "Telecommunications",
-    roles: ["Network Engineer", "Project Manager", "Operations Manager"],
-    operationsFocus: "Telecommunications network operations",
-    keyCities: ["Mumbai", "New Delhi", "Gurgaon"],
-    helpfulCertifications: ["CCNA", "PMP", "ITIL"],
-    positioningTips: "Network management; project execution",
+    name: "MTR Foods",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Ready-to-eat foods; spices",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.mtrfoods.com"
   },
-
-  // Technology
   {
     id: "195",
-    name: "Tata Consultancy Services",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Mumbai", "Bengaluru", "Chennai"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Bagrry’s",
+    industrySector: "Food & Beverage",
+    roles: ["Production Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Breakfast cereal and snack manufacturing",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "FSSC 22000"],
+    positioningTips: "Production efficiency; quality assurance",
+    website: "https://www.bagrrys.com"
   },
+
+  // Textiles
   {
     id: "196",
-    name: "Infosys",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Bengaluru", "Pune", "Hyderabad"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Arvind Limited",
+    industrySector: "Textiles",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Textile manufacturing; apparel",
+    keyCities: ["Ahmedabad", "Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.arvind.com"
   },
   {
     id: "197",
-    name: "HCL Technologies",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Noida", "Chennai", "Bengaluru"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Raymond Limited",
+    industrySector: "Textiles",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Textile manufacturing; apparel",
+    keyCities: ["Mumbai", "Thane", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.raymond.in"
   },
   {
     id: "198",
-    name: "Wipro",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Bengaluru", "Pune", "Hyderabad"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Trident Group",
+    industrySector: "Textiles",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Textile manufacturing; home textiles",
+    keyCities: ["Ludhiana", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.tridentindia.com"
   },
   {
     id: "199",
-    name: "Tech Mahindra",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Pune", "Hyderabad", "Mumbai"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Vardhman Textiles",
+    industrySector: "Textiles",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Textile manufacturing; yarn production",
+    keyCities: ["Ludhiana", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.vardhman.com"
   },
   {
     id: "200",
-    name: "LTIMindtree",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Mumbai", "Bengaluru", "Pune"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Welspun India",
+    industrySector: "Textiles",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Textile manufacturing; home textiles",
+    keyCities: ["Mumbai", "Anjar", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.welspunindia.com"
   },
+
+  // Chemicals
   {
     id: "201",
-    name: "Oracle India",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Bengaluru", "Hyderabad", "Mumbai"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "BASF India",
+    industrySector: "Chemicals",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Chemical manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Mangalore", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.basf.com/in"
   },
   {
     id: "202",
-    name: "Capgemini India",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Mumbai", "Bengaluru", "Chennai"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Pidilite Industries",
+    industrySector: "Chemicals",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Adhesives and chemicals manufacturing",
+    keyCities: ["Mumbai", "Vapi", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.pidilite.com"
   },
   {
     id: "203",
-    name: "Accenture India",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Bengaluru", "Gurugram", "Mumbai"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "Tata Chemicals",
+    industrySector: "Chemicals",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Chemical manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Mithapur", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.tatachemicals.com"
   },
   {
     id: "204",
-    name: "Cognizant",
-    industrySector: "Technology",
-    roles: ["Project Manager", "Software Engineer", "Systems Analyst"],
-    operationsFocus: "Software development; IT services",
-    keyCities: ["Chennai", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["PMP", "ITIL", "Agile"],
-    positioningTips: "Project execution; software development",
+    name: "UPL Limited",
+    industrySector: "Chemicals",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Agrochemicals manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Vapi", "Ankleshwar"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.upl-ltd.com"
   },
-
-  // Cybersecurity
   {
     id: "205",
-    name: "Tata Communications",
-    industrySector: "Cybersecurity",
-    roles: ["Security Analyst", "Network Engineer", "Security Architect"],
-    operationsFocus: "Cybersecurity services; network security",
-    keyCities: ["Mumbai", "Pune", "Chennai"],
-    helpfulCertifications: ["CISSP", "CISM", "CCNA Security"],
-    positioningTips: "Network security; cybersecurity threat management",
+    name: "Deepak Nitrite",
+    industrySector: "Chemicals",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Chemical manufacturing; quality assurance",
+    keyCities: ["Vadodara", "Mumbai", "Hyderabad"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.deepaknitrite.com"
   },
+
+  // Cement
   {
     id: "206",
-    name: "Quick Heal Technologies",
-    industrySector: "Cybersecurity",
-    roles: ["Security Analyst", "Software Developer", "Security Engineer"],
-    operationsFocus: "Antivirus software development; cybersecurity",
-    keyCities: ["Pune", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["CISSP", "CEH", "CompTIA Security+"],
-    positioningTips: "Antivirus software development; cybersecurity threat analysis",
+    name: "UltraTech Cement",
+    industrySector: "Cement",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Cement manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Nagpur", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.ultratechcement.com"
   },
   {
     id: "207",
-    name: "Cyient",
-    industrySector: "Cybersecurity",
-    roles: ["Security Analyst", "Network Engineer", "Security Consultant"],
-    operationsFocus: "Cybersecurity services; network security",
-    keyCities: ["Hyderabad", "Bengaluru", "Mumbai"],
-    helpfulCertifications: ["CISSP", "CISM", "CCNA Security"],
-    positioningTips: "Network security; cybersecurity threat management",
+    name: "Ambuja Cements",
+    industrySector: "Cement",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Cement manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Ahmedabad", "Kolkata"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.ambujacement.com"
   },
   {
     id: "208",
-    name: "Wipro",
-    industrySector: "Cybersecurity",
-    roles: ["Security Analyst", "Security Architect", "Security Consultant"],
-    operationsFocus: "Cybersecurity services; security consulting",
-    keyCities: ["Bengaluru", "Pune", "Hyderabad"],
-    helpfulCertifications: ["CISSP", "CISM", "CEH"],
-    positioningTips: "Cybersecurity threat management; security consulting",
+    name: "ACC Limited",
+    industrySector: "Cement",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Cement manufacturing; quality assurance",
+    keyCities: ["Mumbai", "Bengaluru", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.acclimited.com"
   },
   {
     id: "209",
-    name: "Infosys",
-    industrySector: "Cybersecurity",
-    roles: ["Security Analyst", "Security Engineer", "Security Architect"],
-    operationsFocus: "Cybersecurity services; security engineering",
-    keyCities: ["Bengaluru", "Pune", "Hyderabad"],
-    helpfulCertifications: ["CISSP", "CISM", "CEH"],
-    positioningTips: "Cybersecurity threat management; security engineering",
+    name: "Shree Cement",
+    industrySector: "Cement",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Cement manufacturing; quality assurance",
+    keyCities: ["Kolkata", "Jaipur", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.shreecement.com"
   },
   {
     id: "210",
-    name: "Tech Mahindra",
-    industrySector: "Cybersecurity",
-    roles: ["Security Analyst", "Security Consultant", "Security Architect"],
-    operationsFocus: "Cybersecurity services; security consulting",
-    keyCities: ["Pune", "Hyderabad", "Mumbai"],
-    helpfulCertifications: ["CISSP", "CISM", "CEH"],
-    positioningTips: "Cybersecurity threat management; security consulting",
+    name: "Dalmia Bharat",
+    industrySector: "Cement",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Cement manufacturing; quality assurance",
+    keyCities: ["New Delhi", "Chennai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.dalmiabharat.com"
   },
 
-  // Insurance & Risk
+  // Electronics
   {
     id: "211",
-    name: "Life Insurance Corporation of India",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Samsung India",
+    industrySector: "Electronics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Electronics manufacturing; quality assurance",
+    keyCities: ["Noida", "Chennai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.samsung.com/in"
   },
   {
     id: "212",
-    name: "HDFC Life",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Bengaluru", "Pune"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "LG India",
+    industrySector: "Electronics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Electronics manufacturing; quality assurance",
+    keyCities: ["Noida", "Pune", "Mumbai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.lg.com/in"
   },
   {
     id: "213",
-    name: "ICICI Prudential Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Sony India",
+    industrySector: "Electronics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Electronics manufacturing; quality assurance",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.sony.co.in"
   },
   {
     id: "214",
-    name: "SBI Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Panasonic India",
+    industrySector: "Electronics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Electronics manufacturing; quality assurance",
+    keyCities: ["Gurgaon", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.panasonic.com/in"
   },
   {
     id: "215",
-    name: "Bajaj Allianz Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Pune", "Mumbai", "Ahmedabad"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Whirlpool India",
+    industrySector: "Electronics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Electronics manufacturing; quality assurance",
+    keyCities: ["Pune", "Faridabad", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality control",
+    website: "https://www.whirlpoolindia.com"
   },
+
+  // Agriculture & Agribusiness
   {
     id: "216",
-    name: "Max Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["New Delhi", "Gurgaon", "Mumbai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Mahyco",
+    industrySector: "Agriculture",
+    roles: ["Operations Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Seed production; agricultural research",
+    keyCities: ["Jalna", "Mumbai", "Hyderabad"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Operational efficiency; quality assurance",
+    website: "https://www.mahyco.com"
   },
   {
     id: "217",
-    name: "Kotak Mahindra Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Bengaluru", "Chennai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Rallis India",
+    industrySector: "Agriculture",
+    roles: ["Operations Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Agrochemicals; seed production",
+    keyCities: ["Mumbai", "Dahej", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Operational efficiency; quality assurance",
+    website: "https://www.rallis.com"
   },
   {
     id: "218",
-    name: "Aditya Birla Sun Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Dhanuka Agritech",
+    industrySector: "Agriculture",
+    roles: ["Operations Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Agrochemicals manufacturing",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Operational efficiency; quality assurance",
+    website: "https://www.dhanuka.com"
   },
   {
     id: "219",
-    name: "Tata AIA Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Pune", "Bengaluru"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "Coromandel International",
+    industrySector: "Agriculture",
+    roles: ["Operations Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Agribusiness; crop protection",
+    keyCities: ["Mumbai", "Hyderabad", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Operational efficiency; quality assurance",
+    website: "https://www.coromandel.biz"
   },
   {
     id: "220",
-    name: "PNB MetLife India Insurance",
-    industrySector: "Insurance",
-    roles: ["Risk Manager", "Operations Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["New Delhi", "Gurgaon", "Mumbai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Risk management; insurance operations",
+    name: "National Fertilizers Limited",
+    industrySector: "Agriculture",
+    roles: ["Operations Manager", "Supply Chain Manager", "Quality Control Manager"],
+    operationsFocus: "Fertilizer manufacturing; distribution",
+    keyCities: ["Noida", "Bhopal", "Panipat"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Operational efficiency; quality assurance",
+    website: "https://www.nationalfertilizers.com"
   },
 
-  // Healthcare Technology
+  // Aviation
   {
     id: "221",
-    name: "Apollo Hospitals",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Chennai", "Hyderabad", "Delhi"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "IndiGo",
+    industrySector: "Aviation",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Airline operations; aircraft maintenance",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Aviation Safety", "PMP"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.goindigo.in"
   },
   {
     id: "222",
-    name: "Fortis Healthcare",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Gurgaon", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "Air India",
+    industrySector: "Aviation",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Airline operations; aircraft maintenance",
+    keyCities: ["Delhi", "Mumbai", "Hyderabad"],
+    helpfulCertifications: ["Aviation Safety", "PMP"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.airindia.in"
   },
   {
     id: "223",
-    name: "Max Healthcare",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["New Delhi", "Gurgaon", "Mumbai"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "SpiceJet",
+    industrySector: "Aviation",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Airline operations; aircraft maintenance",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Aviation Safety", "PMP"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.spicejet.com"
   },
   {
     id: "224",
-    name: "Narayana Health",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Bengaluru", "Mysore", "Kolkata"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "Vistara",
+    industrySector: "Aviation",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Airline operations; aircraft maintenance",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Aviation Safety", "PMP"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.airvistara.com"
   },
   {
     id: "225",
-    name: "Manipal Hospitals",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Bengaluru", "Mangalore", "Delhi"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "GoAir",
+    industrySector: "Aviation",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Airline operations; aircraft maintenance",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Aviation Safety", "PMP"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.goair.in"
   },
+
+  // Real Estate
   {
     id: "226",
-    name: "Columbia Asia Hospitals",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Bengaluru", "Pune", "Gurgaon"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "DLF Limited",
+    industrySector: "Real Estate",
+    roles: ["Project Manager", "Construction Manager", "Facilities Manager"],
+    operationsFocus: "Real estate development; construction",
+    keyCities: ["Gurgaon", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "NEBOSH"],
+    positioningTips: "Project execution; safety compliance",
+    website: "https://www.dlf.in"
   },
   {
     id: "227",
-    name: "Wockhardt Hospitals",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Mumbai", "Nagpur", "Surat"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "Godrej Properties",
+    industrySector: "Real Estate",
+    roles: ["Project Manager", "Construction Manager", "Facilities Manager"],
+    operationsFocus: "Real estate development; construction",
+    keyCities: ["Mumbai", "Bengaluru", "Delhi"],
+    helpfulCertifications: ["PMP", "NEBOSH"],
+    positioningTips: "Project execution; safety compliance",
+    website: "https://www.godrejproperties.com"
   },
   {
     id: "228",
-    name: "Global Hospitals",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Chennai", "Hyderabad", "Mumbai"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "Oberoi Realty",
+    industrySector: "Real Estate",
+    roles: ["Project Manager", "Construction Manager", "Facilities Manager"],
+    operationsFocus: "Real estate development; construction",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "NEBOSH"],
+    positioningTips: "Project execution; safety compliance",
+    website: "https://www.oberoirealty.com"
   },
   {
     id: "229",
-    name: "Hiranandani Hospital",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Mumbai", "Pune", "Bengaluru"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
+    name: "Prestige Estates",
+    industrySector: "Real Estate",
+    roles: ["Project Manager", "Construction Manager", "Facilities Manager"],
+    operationsFocus: "Real estate development; construction",
+    keyCities: ["Bengaluru", "Mumbai", "Chennai"],
+    helpfulCertifications: ["PMP", "NEBOSH"],
+    positioningTips: "Project execution; safety compliance",
+    website: "https://www.prestigeconstructions.com"
   },
   {
     id: "230",
-    name: "Lilavati Hospital",
-    industrySector: "Healthcare Technology",
-    roles: ["Operations Manager", "IT Manager", "Healthcare Consultant"],
-    operationsFocus: "Hospital operations; healthcare IT",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["Healthcare IT certifications", "PMP", "ITIL"],
-    positioningTips: "Healthcare operations; healthcare IT management",
-  },
-
-  // Insurance
-  {
-    id: "231",
-    name: "Life Insurance Corporation of India",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "232",
-    name: "HDFC Life",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Bengaluru", "Pune"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "233",
-    name: "ICICI Prudential Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "234",
-    name: "SBI Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "235",
-    name: "Bajaj Allianz Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Pune", "Mumbai", "Ahmedabad"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "236",
-    name: "Max Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["New Delhi", "Gurgaon", "Mumbai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "237",
-    name: "Kotak Mahindra Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Bengaluru", "Chennai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "238",
-    name: "Aditya Birla Sun Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "239",
-    name: "Tata AIA Life Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["Mumbai", "Pune", "Bengaluru"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-  {
-    id: "240",
-    name: "PNB MetLife India Insurance",
-    industrySector: "Insurance",
-    roles: ["Operations Manager", "Risk Manager", "Actuary"],
-    operationsFocus: "Insurance operations; risk management",
-    keyCities: ["New Delhi", "Gurgaon", "Mumbai"],
-    helpfulCertifications: ["FRM", "IRM", "Actuarial Science"],
-    positioningTips: "Insurance operations; risk management",
-  },
-
-  // Financial Services
-  {
-    id: "241",
-    name: "HDFC Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "242",
-    name: "ICICI Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "243",
-    name: "Axis Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "244",
-    name: "Kotak Mahindra Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "245",
-    name: "IndusInd Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Pune", "Ahmedabad"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "246",
-    name: "Yes Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Delhi", "Gurgaon"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "247",
-    name: "IDFC First Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Mumbai", "Chennai", "Hyderabad"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "248",
-    name: "AU Small Finance Bank",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Banking operations; financial services",
-    keyCities: ["Jaipur", "Delhi", "Mumbai"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "249",
-    name: "Bajaj Finserv",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Financial services operations; risk management",
-    keyCities: ["Pune", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
-  },
-  {
-    id: "250",
-    name: "HDB Financial Services",
-    industrySector: "Financial Services",
-    roles: ["Operations Manager", "Risk Manager", "Compliance Officer"],
-    operationsFocus: "Financial services operations; risk management",
-    keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
-    helpfulCertifications: ["MBA Finance", "FRM", "IRM"],
-    positioningTips: "Financial operations; risk management",
+    name: "Sobha Limited",
+    industrySector: "Real Estate",
+    roles: ["Project Manager", "Construction Manager", "Facilities Manager"],
+    operationsFocus: "Real estate development; construction",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "NEBOSH"],
+    positioningTips: "Project execution; safety compliance",
+    website: "https://www.sobha.com"
   },
 
   // Hospitality
   {
-    id: "251",
-    name: "Indian Hotels Company Limited (Taj Group)",
+    id: "231",
+    name: "Taj Hotels",
     industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
+    roles: ["Operations Manager", "Facilities Manager", "Safety Officer"],
+    operationsFocus: "Hotel operations; guest services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.tajhotels.com"
+  },
+  {
+    id: "232",
+    name: "Oberoi Hotels & Resorts",
+    industrySector: "Hospitality",
+    roles: ["Operations Manager", "Facilities Manager", "Safety Officer"],
+    operationsFocus: "Hotel operations; guest services",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.oberoihotels.com"
+  },
+  {
+    id: "233",
+    name: "ITC Hotels",
+    industrySector: "Hospitality",
+    roles: ["Operations Manager", "Facilities Manager", "Safety Officer"],
+    operationsFocus: "Hotel operations; guest services",
+    keyCities: ["Kolkata", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.itchotels.in"
+  },
+  {
+    id: "234",
+    name: "Marriott International India",
+    industrySector: "Hospitality",
+    roles: ["Operations Manager", "Facilities Manager", "Safety Officer"],
+    operationsFocus: "Hotel operations; guest services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.marriott.com"
+  },
+  {
+    id: "235",
+    name: "Hyatt Hotels India",
+    industrySector: "Hospitality",
+    roles: ["Operations Manager", "Facilities Manager", "Safety Officer"],
+    operationsFocus: "Hotel operations; guest services",
     keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.hyatt.com"
+  },
+
+  // Renewable Energy
+  {
+    id: "236",
+    name: "Greenko Group",
+    industrySector: "Renewable Energy",
+    roles: ["Project Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Solar and wind energy projects",
+    keyCities: ["Hyderabad", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Renewable energy project execution; operational efficiency",
+    website: "https://www.greenkogroup.com"
+  },
+  {
+    id: "237",
+    name: "Azure Power",
+    industrySector: "Renewable Energy",
+    roles: ["Project Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Solar energy projects",
+    keyCities: ["New Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Renewable energy project execution; operational efficiency",
+    website: "https://www.azurepower.com"
+  },
+  {
+    id: "238",
+    name: "Mytrah Energy",
+    industrySector: "Renewable Energy",
+    roles: ["Project Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Wind and solar energy projects",
+    keyCities: ["Hyderabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Renewable energy project execution; operational efficiency",
+    website: "https://www.mytrah.com"
+  },
+  {
+    id: "239",
+    name: "Hero Future Energies",
+    industrySector: "Renewable Energy",
+    roles: ["Project Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Solar and wind energy projects",
+    keyCities: ["New Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Renewable energy project execution; operational efficiency",
+    website: "https://www.herofutureenergies.com"
+  },
+  {
+    id: "240",
+    name: "CleanMax Solar",
+    industrySector: "Renewable Energy",
+    roles: ["Project Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Solar energy projects",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Renewable energy project execution; operational efficiency",
+    website: "https://www.cleanmaxsolar.com"
+  },
+
+  // Engineering & Manufacturing
+  {
+    id: "241",
+    name: "Thermax Limited",
+    industrySector: "Engineering",
+    roles: ["Project Manager", "Production Manager", "Quality Control Manager"],
+    operationsFocus: "Industrial equipment manufacturing",
+    keyCities: ["Pune", "Mumbai", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.thermaxglobal.com"
+  },
+  {
+    id: "242",
+    name: "Kirloskar Brothers Limited",
+    industrySector: "Engineering",
+    roles: ["Project Manager", "Production Manager", "Quality Control Manager"],
+    operationsFocus: "Pump manufacturing; engineering projects",
+    keyCities: ["Pune", "Mumbai", "Coimbatore"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.kirloskarpumps.com"
+  },
+  {
+    id: "243",
+    name: "Cummins India",
+    industrySector: "Engineering",
+    roles: ["Project Manager", "Production Manager", "Quality Control Manager"],
+    operationsFocus: "Engine and power generation equipment manufacturing",
+    keyCities: ["Pune", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.cumminsindia.com"
+  },
+  {
+    id: "244",
+    name: "Bharat Forge",
+    industrySector: "Manufacturing",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Forging and machining; automotive components",
+    keyCities: ["Pune", "Mumbai", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.bharatforge.com"
+  },
+  {
+    id: "245",
+    name: "L&T Heavy Engineering",
+    industrySector: "Engineering",
+    roles: ["Project Manager", "Production Manager", "Quality Control Manager"],
+    operationsFocus: "Heavy engineering and equipment manufacturing",
+    keyCities: ["Mumbai", "Hazira", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.larsentoubro.com/heavy-engineering"
+  },
+
+  // Mining
+  {
+    id: "246",
+    name: "Hindustan Copper Limited",
+    industrySector: "Mining",
+    roles: ["Mining Engineer", "Safety Officer", "Operations Manager"],
+    operationsFocus: "Copper mining; smelting",
+    keyCities: ["Kolkata", "Jhunjhunu", "Malanjkhand"],
+    helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
+    positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.hindustancopper.com"
+  },
+  {
+    id: "247",
+    name: "MOIL Limited",
+    industrySector: "Mining",
+    roles: ["Mining Engineer", "Safety Officer", "Operations Manager"],
+    operationsFocus: "Manganese ore mining",
+    keyCities: ["Nagpur", "Mumbai", "Bhopal"],
+    helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
+    positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.moil.nic.in"
+  },
+  {
+    id: "248",
+    name: "Gujarat Mineral Development Corporation",
+    industrySector: "Mining",
+    roles: ["Mining Engineer", "Safety Officer", "Operations Manager"],
+    operationsFocus: "Lignite and bauxite mining",
+    keyCities: ["Ahmedabad", "Vadodara", "Surat"],
+    helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
+    positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.gmdcltd.com"
+  },
+  {
+    id: "249",
+    name: "Tata Steel Mining",
+    industrySector: "Mining",
+    roles: ["Mining Engineer", "Safety Officer", "Operations Manager"],
+    operationsFocus: "Iron ore and coal mining",
+    keyCities: ["Jamshedpur", "Kolkata", "Bhubaneswar"],
+    helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
+    positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.tatasteelmining.com"
+  },
+  {
+    id: "250",
+    name: "Sesa Goa (Vedanta)",
+    industrySector: "Mining",
+    roles: ["Mining Engineer", "Safety Officer", "Operations Manager"],
+    operationsFocus: "Iron ore mining",
+    keyCities: ["Panaji", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Industrial-safety cert", "Mining Certifications"],
+    positioningTips: "Safety compliance; operational efficiency",
+    website: "https://www.vedantalimited.com"
+  },
+
+  // Ports & Shipping
+  {
+    id: "251",
+    name: "Adani Ports and SEZ",
+    industrySector: "Ports & Shipping",
+    roles: ["Port Operations Manager", "Logistics Manager", "Safety Officer"],
+    operationsFocus: "Port operations; logistics",
+    keyCities: ["Mundra", "Ahmedabad", "Mumbai"],
+    helpfulCertifications: ["PMP", "Port Management"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.adaniports.com"
   },
   {
     id: "252",
-    name: "ITC Hotels",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Kolkata", "Mumbai", "Chennai"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Jawaharlal Nehru Port Trust",
+    industrySector: "Ports & Shipping",
+    roles: ["Port Operations Manager", "Logistics Manager", "Safety Officer"],
+    operationsFocus: "Port operations; logistics",
+    keyCities: ["Mumbai", "Navi Mumbai"],
+    helpfulCertifications: ["PMP", "Port Management"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://jnport.gov.in"
   },
   {
     id: "253",
-    name: "The Oberoi Group",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Mumbai Port Trust",
+    industrySector: "Ports & Shipping",
+    roles: ["Port Operations Manager", "Logistics Manager", "Safety Officer"],
+    operationsFocus: "Port operations; logistics",
+    keyCities: ["Mumbai"],
+    helpfulCertifications: ["PMP", "Port Management"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://mumbaiport.gov.in"
   },
   {
     id: "254",
-    name: "The Leela Palaces, Hotels and Resorts",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Chennai Port Trust",
+    industrySector: "Ports & Shipping",
+    roles: ["Port Operations Manager", "Logistics Manager", "Safety Officer"],
+    operationsFocus: "Port operations; logistics",
+    keyCities: ["Chennai"],
+    helpfulCertifications: ["PMP", "Port Management"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.chennaiport.gov.in"
   },
   {
     id: "255",
-    name: "Hyatt Hotels Corporation",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Pune", "Ahmedabad"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Shipping Corporation of India",
+    industrySector: "Ports & Shipping",
+    roles: ["Operations Manager", "Logistics Manager", "Safety Officer"],
+    operationsFocus: "Shipping operations; logistics",
+    keyCities: ["Mumbai", "Delhi", "Kolkata"],
+    helpfulCertifications: ["PMP", "Maritime Management"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.shipindia.com"
   },
+
+  // Railways
   {
     id: "256",
-    name: "Marriott International",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Indian Railways",
+    industrySector: "Railways",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Railway operations; infrastructure maintenance",
+    keyCities: ["New Delhi", "Mumbai", "Kolkata"],
+    helpfulCertifications: ["PMP", "Railway Safety"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://indianrailways.gov.in"
   },
   {
     id: "257",
-    name: "Hilton Worldwide Holdings Inc.",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Chennai", "Hyderabad"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Konkan Railway Corporation",
+    industrySector: "Railways",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Railway operations; infrastructure maintenance",
+    keyCities: ["Navi Mumbai", "Mangalore", "Goa"],
+    helpfulCertifications: ["PMP", "Railway Safety"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.konkanrailway.com"
   },
   {
     id: "258",
-    name: "Accor",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Delhi", "Pune"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Delhi Metro Rail Corporation",
+    industrySector: "Railways",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Metro rail operations; infrastructure maintenance",
+    keyCities: ["Delhi", "Noida", "Gurgaon"],
+    helpfulCertifications: ["PMP", "Railway Safety"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.delhimetrorail.com"
   },
   {
     id: "259",
-    name: "InterContinental Hotels Group (IHG)",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Bengaluru", "Chennai"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Mumbai Metro Rail Corporation",
+    industrySector: "Railways",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Metro rail operations; infrastructure maintenance",
+    keyCities: ["Mumbai"],
+    helpfulCertifications: ["PMP", "Railway Safety"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://www.mmrcl.com"
   },
   {
     id: "260",
-    name: "Wyndham Hotels & Resorts",
-    industrySector: "Hospitality",
-    roles: ["Operations Manager", "Hotel Manager", "F&B Manager"],
-    operationsFocus: "Hotel operations; hospitality services",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["Hospitality Management", "Six Sigma", "Lean"],
-    positioningTips: "Hotel operations; customer service",
+    name: "Chennai Metro Rail",
+    industrySector: "Railways",
+    roles: ["Operations Manager", "Maintenance Manager", "Safety Officer"],
+    operationsFocus: "Metro rail operations; infrastructure maintenance",
+    keyCities: ["Chennai"],
+    helpfulCertifications: ["PMP", "Railway Safety"],
+    positioningTips: "Operational efficiency; safety compliance",
+    website: "https://chennaimetrorail.org"
   },
 
-  // Facility Management
+  // Power & Utilities
   {
     id: "261",
-    name: "CBRE Group",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "SJVN Limited",
+    industrySector: "Power & Utilities",
+    roles: ["Power Plant Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Hydropower generation",
+    keyCities: ["Shimla", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Power generation; operational efficiency",
+    website: "https://www.sjvn.nic.in"
   },
   {
     id: "262",
-    name: "Jones Lang LaSalle (JLL)",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Delhi", "Chennai"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "THDC India Limited",
+    industrySector: "Power & Utilities",
+    roles: ["Power Plant Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Hydropower generation",
+    keyCities: ["Rishikesh", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Power generation; operational efficiency",
+    website: "https://www.thdc.co.in"
   },
   {
     id: "263",
-    name: "Colliers International",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Pune", "Ahmedabad"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "Karnataka Power Corporation",
+    industrySector: "Power & Utilities",
+    roles: ["Power Plant Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Thermal and hydropower generation",
+    keyCities: ["Bengaluru", "Raichur", "Bellary"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Power generation; operational efficiency",
+    website: "https://www.karnatakapower.com"
   },
   {
     id: "264",
-    name: "Cushman & Wakefield",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Delhi", "Hyderabad"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "Maharashtra State Power Generation Company",
+    industrySector: "Power & Utilities",
+    roles: ["Power Plant Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Thermal power generation",
+    keyCities: ["Mumbai", "Nagpur", "Chandrapur"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Power generation; operational efficiency",
+    website: "https://www.mahagenco.in"
   },
   {
     id: "265",
-    name: "ISS Facility Services",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Bengaluru", "Chennai"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "Gujarat State Electricity Corporation",
+    industrySector: "Power & Utilities",
+    roles: ["Power Plant Manager", "Operations Engineer", "Maintenance Manager"],
+    operationsFocus: "Thermal power generation",
+    keyCities: ["Vadodara", "Surat", "Ahmedabad"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Power generation; operational efficiency",
+    website: "https://www.gsecl.in"
   },
+
+  // Aerospace & Defense
   {
     id: "266",
-    name: "Sodexo",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Delhi", "Pune"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "DRDO",
+    industrySector: "Aerospace & Defense",
+    roles: ["Project Manager", "Systems Engineer", "Quality Assurance Manager"],
+    operationsFocus: "Defense research and development",
+    keyCities: ["Delhi", "Bengaluru", "Hyderabad"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Project execution; quality control",
+    website: "https://www.drdo.gov.in"
   },
   {
     id: "267",
-    name: "Compass Group",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Chennai", "Hyderabad"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "Tata Advanced Systems",
+    industrySector: "Aerospace & Defense",
+    roles: ["Project Manager", "Systems Engineer", "Quality Assurance Manager"],
+    operationsFocus: "Aerospace and defense manufacturing",
+    keyCities: ["Hyderabad", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Project execution; quality control",
+    website: "https://www.tataadvancedsystems.com"
   },
   {
     id: "268",
-    name: "Aramark",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "L&T Defence",
+    industrySector: "Aerospace & Defense",
+    roles: ["Project Manager", "Systems Engineer", "Quality Assurance Manager"],
+    operationsFocus: "Defense manufacturing; engineering",
+    keyCities: ["Mumbai", "Coimbatore", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Project execution; quality control",
+    website: "https://www.larsentoubro.com/defence"
   },
   {
     id: "269",
-    name: "Quess Corp",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Bengaluru", "Mumbai", "Chennai"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "Reliance Naval and Engineering",
+    industrySector: "Aerospace & Defense",
+    roles: ["Project Manager", "Systems Engineer", "Quality Assurance Manager"],
+    operationsFocus: "Naval shipbuilding; defense manufacturing",
+    keyCities: ["Pipavav", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Project execution; quality control",
+    website: "https://www.rnaval.co.in"
   },
   {
     id: "270",
-    name: "SIS Prosegur",
-    industrySector: "Facility Management",
-    roles: ["Facility Manager", "Operations Manager", "Property Manager"],
-    operationsFocus: "Facility management services; property management",
-    keyCities: ["Delhi", "Mumbai", "Hyderabad"],
-    helpfulCertifications: ["CFM", "FMP", "PMP"],
-    positioningTips: "Facility management; property management",
+    name: "Bharat Earth Movers Limited (BEML)",
+    industrySector: "Aerospace & Defense",
+    roles: ["Project Manager", "Systems Engineer", "Quality Assurance Manager"],
+    operationsFocus: "Defense and heavy equipment manufacturing",
+    keyCities: ["Bengaluru", "Mysore", "Kolkata"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Project execution; quality control",
+    website: "https://www.bemlindia.in"
   },
 
-  // SaaS
+  // Automotive Components
   {
     id: "271",
-    name: "Zoho Corporation",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Chennai", "Austin", "Pleasanton"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Bosch India",
+    industrySector: "Automotive Components",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Automotive component manufacturing",
+    keyCities: ["Bengaluru", "Nashik", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.bosch.in"
   },
   {
     id: "272",
-    name: "Freshworks",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Chennai", "San Mateo", "London"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Motherson Sumi Systems",
+    industrySector: "Automotive Components",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Automotive component manufacturing",
+    keyCities: ["Noida", "Pune", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.motherson.com"
   },
   {
     id: "273",
-    name: "Druva",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Pune", "Sunnyvale", "London"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Apollo Tyres",
+    industrySector: "Automotive Components",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Tyre manufacturing",
+    keyCities: ["Gurgaon", "Chennai", "Kochi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.apollotyres.com"
   },
   {
     id: "274",
-    name: "Icertis",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Pune", "Bellevue", "Frankfurt"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "MRF Tyres",
+    industrySector: "Automotive Components",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Tyre manufacturing",
+    keyCities: ["Chennai", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.mrftyres.com"
   },
   {
     id: "275",
-    name: "Capillary Technologies",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Bengaluru", "Singapore", "Dubai"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "CEAT Tyres",
+    industrySector: "Automotive Components",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Tyre manufacturing",
+    keyCities: ["Mumbai", "Nashik", "Halol"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.ceat.com"
   },
+
+  // Oil & Gas (Additional Companies)
   {
     id: "276",
-    name: "Chargebee",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Chennai", "San Francisco", "Amsterdam"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Essar Oil",
+    industrySector: "Oil & Gas",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Refineries; oil distribution",
+    keyCities: ["Jamnagar", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.essar.com"
   },
   {
     id: "277",
-    name: "Kissflow",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Chennai", "San Francisco", "Dubai"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Nayara Energy",
+    industrySector: "Oil & Gas",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Refineries; oil distribution",
+    keyCities: ["Vadinar", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.nayaraenergy.com"
   },
   {
     id: "278",
-    name: "Wingify",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Delhi", "San Francisco", "London"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Chennai Petroleum Corporation",
+    industrySector: "Oil & Gas",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Refineries; oil distribution",
+    keyCities: ["Chennai", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.cpcl.co.in"
   },
   {
     id: "279",
-    name: "BrowserStack",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Mumbai", "Dublin", "San Francisco"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Numaligarh Refinery Limited",
+    industrySector: "Oil & Gas",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Refineries; oil distribution",
+    keyCities: ["Numaligarh", "Guwahati", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.nrl.co.in"
   },
   {
     id: "280",
-    name: "Postman",
-    industrySector: "SaaS",
-    roles: ["Product Manager", "Software Engineer", "Sales Manager"],
-    operationsFocus: "SaaS product development; sales and marketing",
-    keyCities: ["Bengaluru", "San Francisco", "Amsterdam"],
-    helpfulCertifications: ["Product Management", "Software Development", "Sales Certifications"],
-    positioningTips: "SaaS product development; sales and marketing",
+    name: "Bharat Oman Refineries",
+    industrySector: "Oil & Gas",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Refineries; oil distribution",
+    keyCities: ["Bina", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.borl.in"
   },
-]
+
+  // Petrochemicals
+  {
+    id: "281",
+    name: "Reliance Industries (Petrochemicals)",
+    industrySector: "Petrochemicals",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Petrochemical manufacturing; distribution",
+    keyCities: ["Jamnagar", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.ril.com"
+  },
+  {
+    id: "282",
+    name: "Haldia Petrochemicals",
+    industrySector: "Petrochemicals",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Petrochemical manufacturing; distribution",
+    keyCities: ["Haldia", "Kolkata", "Mumbai"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.haldiapetrochemicals.com"
+  },
+  {
+    id: "283",
+    name: "GAIL (Petrochemicals)",
+    industrySector: "Petrochemicals",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Petrochemical manufacturing; distribution",
+    keyCities: ["Noida", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.gailonline.com"
+  },
+  {
+    id: "284",
+    name: "Indian Petrochemicals Corporation Limited",
+    industrySector: "Petrochemicals",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Petrochemical manufacturing; distribution",
+    keyCities: ["Vadodara", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.ipcl.in"
+  },
+  {
+    id: "285",
+    name: "Mangalore Chemicals & Fertilizers",
+    industrySector: "Petrochemicals",
+    roles: ["Plant Manager", "Operations Lead", "Project Manager"],
+    operationsFocus: "Petrochemical manufacturing; distribution",
+    keyCities: ["Mangalore", "Bengaluru", "Mumbai"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Production optimization; safety compliance",
+    website: "https://www.mangalorechemicals.com"
+  },
+
+  // Paper & Packaging
+  {
+    id: "286",
+    name: "ITC Paperboards and Specialty Papers",
+    industrySector: "Paper & Packaging",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paperboard manufacturing; packaging",
+    keyCities: ["Kolkata", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.itcpspd.com"
+  },
+  {
+    id: "287",
+    name: "Ballarpur Industries Limited",
+    industrySector: "Paper & Packaging",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paper manufacturing; packaging",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.biltpaper.com"
+  },
+  {
+    id: "288",
+    name: "JK Paper",
+    industrySector: "Paper & Packaging",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paper manufacturing; packaging",
+    keyCities: ["New Delhi", "Surat", "Bhubaneswar"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.jkpaper.com"
+  },
+  {
+    id: "289",
+    name: "West Coast Paper Mills",
+    industrySector: "Paper & Packaging",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paper manufacturing; packaging",
+    keyCities: ["Dandeli", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.westcoastpaper.com"
+  },
+  {
+    id: "290",
+    name: "Tamil Nadu Newsprint and Papers Limited",
+    industrySector: "Paper & Packaging",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paper manufacturing; packaging",
+    keyCities: ["Chennai", "Karur", "Mumbai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.tnpl.com"
+  },
+
+  // Glass & Ceramics
+  {
+    id: "291",
+    name: "Asahi India Glass",
+    industrySector: "Glass & Ceramics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Glass manufacturing; automotive glass",
+    keyCities: ["Mumbai", "Taloja", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.aisglass.com"
+  },
+  {
+    id: "292",
+    name: "Saint-Gobain India",
+    industrySector: "Glass & Ceramics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Glass and ceramics manufacturing",
+    keyCities: ["Chennai", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.saint-gobain.co.in"
+  },
+  {
+    id: "293",
+    name: "Hindusthan National Glass",
+    industrySector: "Glass & Ceramics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Glass container manufacturing",
+    keyCities: ["Kolkata", "Mumbai", "Puducherry"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.hngindia.com"
+  },
+  {
+    id: "294",
+    name: "Cera Sanitaryware",
+    industrySector: "Glass & Ceramics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Sanitaryware and ceramics manufacturing",
+    keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.cera-india.com"
+  },
+  {
+    id: "295",
+    name: "Somany Ceramics",
+    industrySector: "Glass & Ceramics",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Ceramic tiles manufacturing",
+    keyCities: ["Noida", "Ahmedabad", "Mumbai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.somanyceramics.com"
+  },
+
+  // Paints & Coatings
+  {
+    id: "296",
+    name: "Asian Paints",
+    industrySector: "Paints & Coatings",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paint manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.asianpaints.com"
+  },
+  {
+    id: "297",
+    name: "Berger Paints India",
+    industrySector: "Paints & Coatings",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paint manufacturing; distribution",
+    keyCities: ["Kolkata", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.bergerpaints.com"
+  },
+  {
+    id: "298",
+    name: "Kansai Nerolac Paints",
+    industrySector: "Paints & Coatings",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paint manufacturing; distribution",
+    keyCities: ["Mumbai", "Delhi", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.nerolac.com"
+  },
+  {
+    id: "299",
+    name: "AkzoNobel India",
+    industrySector: "Paints & Coatings",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paint manufacturing; distribution",
+    keyCities: ["Gurgaon", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.akzonobel.com/en/in"
+  },
+  {
+    id: "300",
+    name: "Indigo Paints",
+    industrySector: "Paints & Coatings",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Paint manufacturing; distribution",
+    keyCities: ["Pune", "Mumbai", "Delhi"],
+        helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Production optimization; quality assurance",
+    website: "https://www.indigopaints.com"
+  },
+
+  // Logistics & Supply Chain
+  {
+    id: "301",
+    name: "Blue Dart Express",
+    industrySector: "Logistics & Supply Chain",
+    roles: ["Logistics Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Courier and logistics services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.bluedart.com"
+  },
+  {
+    id: "302",
+    name: "DHL Supply Chain India",
+    industrySector: "Logistics & Supply Chain",
+    roles: ["Logistics Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Logistics and warehousing",
+    keyCities: ["Mumbai", "Delhi", "Chennai"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.dhl.com/in-en/home.html"
+  },
+  {
+    id: "303",
+    name: "Delhivery",
+    industrySector: "Logistics & Supply Chain",
+    roles: ["Logistics Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "E-commerce logistics; last-mile delivery",
+    keyCities: ["Gurgaon", "Bengaluru", "Mumbai"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.delhivery.com"
+  },
+  {
+    id: "304",
+    name: "Gati Limited",
+    industrySector: "Logistics & Supply Chain",
+    roles: ["Logistics Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Express logistics; supply chain solutions",
+    keyCities: ["Hyderabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.gati.com"
+  },
+  {
+    id: "305",
+    name: "TCI Express",
+    industrySector: "Logistics & Supply Chain",
+    roles: ["Logistics Manager", "Supply Chain Manager", "Operations Lead"],
+    operationsFocus: "Express logistics; freight forwarding",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.tciexpress.in"
+  },
+
+  // Media & Entertainment
+  {
+    id: "306",
+    name: "Zee Entertainment Enterprises",
+    industrySector: "Media & Entertainment",
+    roles: ["Operations Manager", "Production Manager", "Content Manager"],
+    operationsFocus: "Broadcasting; content production",
+    keyCities: ["Mumbai", "Delhi", "Noida"],
+    helpfulCertifications: ["PMP", "Content Management"],
+    positioningTips: "Operational efficiency; content delivery",
+    website: "https://www.zee.com"
+  },
+  {
+    id: "307",
+    name: "Sun TV Network",
+    industrySector: "Media & Entertainment",
+    roles: ["Operations Manager", "Production Manager", "Content Manager"],
+    operationsFocus: "Broadcasting; content production",
+    keyCities: ["Chennai", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Content Management"],
+    positioningTips: "Operational efficiency; content delivery",
+    website: "https://www.suntv.in"
+  },
+  {
+    id: "308",
+    name: "PVR Cinemas",
+    industrySector: "Media & Entertainment",
+    roles: ["Operations Manager", "Facilities Manager", "Guest Services Manager"],
+    operationsFocus: "Cinema operations; guest services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.pvrcinemas.com"
+  },
+  {
+    id: "309",
+    name: "INOX Leisure",
+    industrySector: "Media & Entertainment",
+    roles: ["Operations Manager", "Facilities Manager", "Guest Services Manager"],
+    operationsFocus: "Cinema operations; guest services",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Hospitality Management"],
+    positioningTips: "Operational efficiency; guest satisfaction",
+    website: "https://www.inoxmovies.com"
+  },
+  {
+    id: "310",
+    name: "Eros International",
+    industrySector: "Media & Entertainment",
+    roles: ["Operations Manager", "Production Manager", "Content Manager"],
+    operationsFocus: "Film production; distribution",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Content Management"],
+    positioningTips: "Operational efficiency; content delivery",
+    website: "https://www.erosnow.com"
+  },
+
+  // Healthcare
+  {
+    id: "311",
+    name: "Apollo Hospitals",
+    industrySector: "Healthcare",
+    roles: ["Operations Manager", "Facilities Manager", "Quality Assurance Manager"],
+    operationsFocus: "Hospital operations; patient care",
+    keyCities: ["Chennai", "Delhi", "Hyderabad"],
+    helpfulCertifications: ["PMP", "Healthcare Management"],
+    positioningTips: "Operational efficiency; patient satisfaction",
+    website: "https://www.apollohospitals.com"
+  },
+  {
+    id: "312",
+    name: "Fortis Healthcare",
+    industrySector: "Healthcare",
+    roles: ["Operations Manager", "Facilities Manager", "Quality Assurance Manager"],
+    operationsFocus: "Hospital operations; patient care",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Healthcare Management"],
+    positioningTips: "Operational efficiency; patient satisfaction",
+    website: "https://www.fortishealthcare.com"
+  },
+  {
+    id: "313",
+    name: "Max Healthcare",
+    industrySector: "Healthcare",
+    roles: ["Operations Manager", "Facilities Manager", "Quality Assurance Manager"],
+    operationsFocus: "Hospital operations; patient care",
+    keyCities: ["Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Healthcare Management"],
+    positioningTips: "Operational efficiency; patient satisfaction",
+    website: "https://www.maxhealthcare.in"
+  },
+  {
+    id: "314",
+    name: "Manipal Hospitals",
+    industrySector: "Healthcare",
+    roles: ["Operations Manager", "Facilities Manager", "Quality Assurance Manager"],
+    operationsFocus: "Hospital operations; patient care",
+    keyCities: ["Bengaluru", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "Healthcare Management"],
+    positioningTips: "Operational efficiency; patient satisfaction",
+    website: "https://www.manipalhospitals.com"
+  },
+  {
+    id: "315",
+    name: "Narayana Health",
+    industrySector: "Healthcare",
+    roles: ["Operations Manager", "Facilities Manager", "Quality Assurance Manager"],
+    operationsFocus: "Hospital operations; patient care",
+    keyCities: ["Bengaluru", "Kolkata", "Delhi"],
+    helpfulCertifications: ["PMP", "Healthcare Management"],
+    positioningTips: "Operational efficiency; patient satisfaction",
+    website: "https://www.narayanahealth.org"
+  },
+
+  // Biotechnology
+  {
+    id: "316",
+    name: "Serum Institute of India",
+    industrySector: "Biotechnology",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Vaccine manufacturing; quality assurance",
+    keyCities: ["Pune", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.seruminstitute.com"
+  },
+  {
+    id: "317",
+    name: "Bharat Biotech",
+    industrySector: "Biotechnology",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Vaccine manufacturing; quality assurance",
+    keyCities: ["Hyderabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.bharatbiotech.com"
+  },
+  {
+    id: "318",
+    name: "Panacea Biotec",
+    industrySector: "Biotechnology",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Vaccine and biologics manufacturing",
+    keyCities: ["Delhi", "Mumbai", "Baddi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.panaceabiotec.com"
+  },
+  {
+    id: "319",
+    name: "Indian Immunologicals",
+    industrySector: "Biotechnology",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Vaccine manufacturing; quality assurance",
+    keyCities: ["Hyderabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.indimmune.com"
+  },
+  {
+    id: "320",
+    name: "Zydus Biotech",
+    industrySector: "Biotechnology",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Biologics manufacturing; quality assurance",
+    keyCities: ["Ahmedabad", "Mumbai", "Delhi"],
+    helpfulCertifications: ["Six Sigma", "GMP"],
+    positioningTips: "Regulatory compliance; production efficiency",
+    website: "https://www.zyduslife.com"
+  },
+
+  // E-commerce
+  {
+    id: "321",
+    name: "Flipkart",
+    industrySector: "E-commerce",
+    roles: ["Operations Manager", "Supply Chain Manager", "Logistics Manager"],
+    operationsFocus: "E-commerce operations; last-mile delivery",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.flipkart.com"
+  },
+  {
+    id: "322",
+    name: "Amazon India",
+    industrySector: "E-commerce",
+    roles: ["Operations Manager", "Supply Chain Manager", "Logistics Manager"],
+    operationsFocus: "E-commerce operations; last-mile delivery",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.amazon.in"
+  },
+  {
+    id: "323",
+    name: "Myntra",
+    industrySector: "E-commerce",
+    roles: ["Operations Manager", "Supply Chain Manager", "Logistics Manager"],
+    operationsFocus: "E-commerce operations; last-mile delivery",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.myntra.com"
+  },
+  {
+    id: "324",
+    name: "Snapdeal",
+    industrySector: "E-commerce",
+    roles: ["Operations Manager", "Supply Chain Manager", "Logistics Manager"],
+    operationsFocus: "E-commerce operations; last-mile delivery",
+    keyCities: ["Gurgaon", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.snapdeal.com"
+  },
+  {
+    id: "325",
+    name: "BigBasket",
+    industrySector: "E-commerce",
+    roles: ["Operations Manager", "Supply Chain Manager", "Logistics Manager"],
+    operationsFocus: "E-commerce operations; grocery delivery",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma"],
+    positioningTips: "Supply chain efficiency; delivery optimization",
+    website: "https://www.bigbasket.com"
+  },
+
+  // Education
+  {
+    id: "326",
+    name: "Amity University",
+    industrySector: "Education",
+    roles: ["Operations Manager", "Facilities Manager", "Program Coordinator"],
+    operationsFocus: "Campus operations; academic administration",
+    keyCities: ["Noida", "Mumbai", "Kolkata"],
+    helpfulCertifications: ["PMP", "Education Management"],
+    positioningTips: "Operational efficiency; student satisfaction",
+    website: "https://www.amity.edu"
+  },
+  {
+    id: "327",
+    name: "Manipal Academy of Higher Education",
+    industrySector: "Education",
+    roles: ["Operations Manager", "Facilities Manager", "Program Coordinator"],
+    operationsFocus: "Campus operations; academic administration",
+    keyCities: ["Manipal", "Bengaluru", "Delhi"],
+    helpfulCertifications: ["PMP", "Education Management"],
+    positioningTips: "Operational efficiency; student satisfaction",
+    website: "https://www.manipal.edu"
+  },
+  {
+    id: "328",
+    name: "Symbiosis International University",
+    industrySector: "Education",
+    roles: ["Operations Manager", "Facilities Manager", "Program Coordinator"],
+    operationsFocus: "Campus operations; academic administration",
+    keyCities: ["Pune", "Mumbai", "Noida"],
+    helpfulCertifications: ["PMP", "Education Management"],
+    positioningTips: "Operational efficiency; student satisfaction",
+    website: "https://www.siu.edu.in"
+  },
+  {
+    id: "329",
+    name: "VIT University",
+    industrySector: "Education",
+    roles: ["Operations Manager", "Facilities Manager", "Program Coordinator"],
+    operationsFocus: "Campus operations; academic administration",
+    keyCities: ["Vellore", "Chennai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Education Management"],
+    positioningTips: "Operational efficiency; student satisfaction",
+    website: "https://www.vit.ac.in"
+  },
+  {
+    id: "330",
+    name: "SRM Institute of Science and Technology",
+    industrySector: "Education",
+    roles: ["Operations Manager", "Facilities Manager", "Program Coordinator"],
+    operationsFocus: "Campus operations; academic administration",
+    keyCities: ["Chennai", "Delhi", "Mumbai"],
+    helpfulCertifications: ["PMP", "Education Management"],
+    positioningTips: "Operational efficiency; student satisfaction",
+    website: "https://www.srmist.edu.in"
+  },
+
+  // Financial Services
+  {
+    id: "331",
+    name: "HDFC Bank",
+    industrySector: "Financial Services",
+    roles: ["Operations Manager", "Branch Manager", "Risk Manager"],
+    operationsFocus: "Banking operations; customer service",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "CFA"],
+    positioningTips: "Operational efficiency; risk management",
+    website: "https://www.hdfcbank.com"
+  },
+  {
+    id: "332",
+    name: "ICICI Bank",
+    industrySector: "Financial Services",
+    roles: ["Operations Manager", "Branch Manager", "Risk Manager"],
+    operationsFocus: "Banking operations; customer service",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "CFA"],
+    positioningTips: "Operational efficiency; risk management",
+    website: "https://www.icicibank.com"
+  },
+  {
+    id: "333",
+    name: "Axis Bank",
+    industrySector: "Financial Services",
+    roles: ["Operations Manager", "Branch Manager", "Risk Manager"],
+    operationsFocus: "Banking operations; customer service",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "CFA"],
+    positioningTips: "Operational efficiency; risk management",
+    website: "https://www.axisbank.com"
+  },
+  {
+    id: "334",
+    name: "Kotak Mahindra Bank",
+    industrySector: "Financial Services",
+    roles: ["Operations Manager", "Branch Manager", "Risk Manager"],
+    operationsFocus: "Banking operations; customer service",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "CFA"],
+    positioningTips: "Operational efficiency; risk management",
+    website: "https://www.kotak.com"
+  },
+  {
+    id: "335",
+    name: "State Bank of India",
+    industrySector: "Financial Services",
+    roles: ["Operations Manager", "Branch Manager", "Risk Manager"],
+    operationsFocus: "Banking operations; customer service",
+    keyCities: ["Mumbai", "Delhi", "Kolkata"],
+    helpfulCertifications: ["PMP", "CFA"],
+    positioningTips: "Operational efficiency; risk management",
+    website: "https://www.sbi.co.in"
+  },
+
+  // Insurance
+  {
+    id: "336",
+    name: "LIC of India",
+    industrySector: "Insurance",
+    roles: ["Operations Manager", "Claims Manager", "Underwriting Manager"],
+    operationsFocus: "Insurance operations; claims processing",
+    keyCities: ["Mumbai", "Delhi", "Kolkata"],
+    helpfulCertifications: ["PMP", "CPCU"],
+    positioningTips: "Operational efficiency; customer service",
+    website: "https://www.licindia.in"
+  },
+  {
+    id: "337",
+    name: "ICICI Prudential Life Insurance",
+    industrySector: "Insurance",
+    roles: ["Operations Manager", "Claims Manager", "Underwriting Manager"],
+    operationsFocus: "Insurance operations; claims processing",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "CPCU"],
+    positioningTips: "Operational efficiency; customer service",
+    website: "https://www.iciciprulife.com"
+  },
+  {
+    id: "338",
+    name: "HDFC Life Insurance",
+    industrySector: "Insurance",
+    roles: ["Operations Manager", "Claims Manager", "Underwriting Manager"],
+    operationsFocus: "Insurance operations; claims processing",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "CPCU"],
+    positioningTips: "Operational efficiency; customer service",
+    website: "https://www.hdfclife.com"
+  },
+  {
+    id: "339",
+    name: "SBI Life Insurance",
+    industrySector: "Insurance",
+    roles: ["Operations Manager", "Claims Manager", "Underwriting Manager"],
+    operationsFocus: "Insurance operations; claims processing",
+    keyCities: ["Mumbai", "Delhi", "Kolkata"],
+    helpfulCertifications: ["PMP", "CPCU"],
+    positioningTips: "Operational efficiency; customer service",
+    website: "https://www.sbilife.co.in"
+  },
+  {
+    id: "340",
+    name: "Bajaj Allianz General Insurance",
+    industrySector: "Insurance",
+    roles: ["Operations Manager", "Claims Manager", "Underwriting Manager"],
+    operationsFocus: "Insurance operations; claims processing",
+    keyCities: ["Pune", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "CPCU"],
+    positioningTips: "Operational efficiency; customer service",
+    website: "https://www.bajajallianz.com"
+  },
+
+  // IT Services
+  {
+    id: "341",
+    name: "Tata Consultancy Services",
+    industrySector: "IT Services",
+    roles: ["Project Manager", "Operations Manager", "Quality Assurance Manager"],
+    operationsFocus: "IT services; software development",
+    keyCities: ["Mumbai", "Bengaluru", "Hyderabad"],
+    helpfulCertifications: ["PMP", "ITIL"],
+    positioningTips: "Project delivery; operational efficiency",
+    website: "https://www.tcs.com"
+  },
+  {
+    id: "342",
+    name: "Infosys",
+    industrySector: "IT Services",
+    roles: ["Project Manager", "Operations Manager", "Quality Assurance Manager"],
+    operationsFocus: "IT services; software development",
+    keyCities: ["Bengaluru", "Pune", "Hyderabad"],
+    helpfulCertifications: ["PMP", "ITIL"],
+    positioningTips: "Project delivery; operational efficiency",
+    website: "https://www.infosys.com"
+  },
+  {
+    id: "343",
+    name: "Wipro",
+    industrySector: "IT Services",
+    roles: ["Project Manager", "Operations Manager", "Quality Assurance Manager"],
+    operationsFocus: "IT services; software development",
+    keyCities: ["Bengaluru", "Hyderabad", "Chennai"],
+    helpfulCertifications: ["PMP", "ITIL"],
+    positioningTips: "Project delivery; operational efficiency",
+    website: "https://www.wipro.com"
+  },
+  {
+    id: "344",
+    name: "HCL Technologies",
+    industrySector: "IT Services",
+    roles: ["Project Manager", "Operations Manager", "Quality Assurance Manager"],
+    operationsFocus: "IT services; software development",
+    keyCities: ["Noida", "Bengaluru", "Chennai"],
+    helpfulCertifications: ["PMP", "ITIL"],
+    positioningTips: "Project delivery; operational efficiency",
+    website: "https://www.hcltech.com"
+  },
+  {
+    id: "345",
+    name: "Tech Mahindra",
+    industrySector: "IT Services",
+    roles: ["Project Manager", "Operations Manager", "Quality Assurance Manager"],
+    operationsFocus: "IT services; software development",
+    keyCities: ["Pune", "Hyderabad", "Mumbai"],
+    helpfulCertifications: ["PMP", "ITIL"],
+    positioningTips: "Project delivery; operational efficiency",
+    website: "https://www.techmahindra.com"
+  },
+
+  // Consulting
+  {
+    id: "346",
+    name: "Deloitte India",
+    industrySector: "Consulting",
+    roles: ["Project Manager", "Operations Consultant", "Process Manager"],
+    operationsFocus: "Business consulting; process optimization",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Process optimization; client delivery",
+    website: "https://www2.deloitte.com/in"
+  },
+  {
+    id: "347",
+    name: "PwC India",
+    industrySector: "Consulting",
+    roles: ["Project Manager", "Operations Consultant", "Process Manager"],
+    operationsFocus: "Business consulting; process optimization",
+    keyCities: ["Mumbai", "Delhi", "Kolkata"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Process optimization; client delivery",
+    website: "https://www.pwc.in"
+  },
+  {
+    id: "348",
+    name: "EY India",
+    industrySector: "Consulting",
+    roles: ["Project Manager", "Operations Consultant", "Process Manager"],
+    operationsFocus: "Business consulting; process optimization",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Process optimization; client delivery",
+    website: "https://www.ey.com/en_in"
+  },
+  {
+    id: "349",
+    name: "KPMG India",
+    industrySector: "Consulting",
+    roles: ["Project Manager", "Operations Consultant", "Process Manager"],
+    operationsFocus: "Business consulting; process optimization",
+    keyCities: ["Mumbai", "Delhi", "Bengaluru"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Process optimization; client delivery",
+    website: "https://home.kpmg/in"
+  },
+  {
+    id: "350",
+    name: "Accenture India",
+    industrySector: "Consulting",
+    roles: ["Project Manager", "Operations Consultant", "Process Manager"],
+    operationsFocus: "Business consulting; process optimization",
+    keyCities: ["Bengaluru", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma"],
+    positioningTips: "Process optimization; client delivery",
+    website: "https://www.accenture.com/in-en"
+  }
+];
+
 
 // Updated filter options based on complete dataset
 export const functionalAreas = [
