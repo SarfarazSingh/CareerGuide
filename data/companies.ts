@@ -4089,7 +4089,6 @@ export const companies: Company[] = [
   import type { Company } from "../types"
 
 // New companies established or significantly active after 2023
-export const companies: Company[] = [
   // Artificial Intelligence
   {
     id: "361",
