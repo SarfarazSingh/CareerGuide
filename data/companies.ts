@@ -4149,7 +4149,7 @@ export const companies: Company[] = [
     helpfulCertifications: ["CFA", "PMP", "Financial Modeling & Valuation Analyst"],
     positioningTips: "Highlight expertise in deal structuring and investor relations",
     website: "https://www.equity360.in"
-  }
+  },
 
   // Telecommunications
   {
