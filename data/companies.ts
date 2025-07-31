@@ -4085,6 +4085,322 @@ export const companies: Company[] = [
     positioningTips: "Demonstrate expertise in EV manufacturing, battery production and high‑throughput automation.",
     website: "https://www.olaelectric.com"
   }
+
+  import type { Company } from "../types"
+
+// New companies established or significantly active after 2023
+export const companies: Company[] = [
+  // Artificial Intelligence
+  {
+    id: "361",
+    name: "Krutrim AI",
+    industrySector: "Artificial Intelligence",
+    roles: ["AI Research Scientist", "Software Engineer", "Data Scientist"],
+    operationsFocus: "AI model development; cloud-based AI solutions",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["AI/ML Certifications", "AWS Certified Machine Learning", "TensorFlow Developer Certificate"],
+    positioningTips: "Emphasize expertise in AI development and multilingual data processing",
+    website: "https://krutrim.com"
+  },
+
+  // Fintech
+  {
+    id: "362",
+    name: "Nivara",
+    industrySector: "Fintech",
+    roles: ["Fintech Product Manager", "Risk Analyst", "Operations Lead"],
+    operationsFocus: "Embedded finance platforms; SME lending",
+    keyCities: ["Mumbai", "Bengaluru"],
+    helpfulCertifications: ["CFA", "Fintech Certification", "PMP"],
+    positioningTips: "Highlight experience in financial operations and digital lending platforms",
+    website: "Not publicly available"
+  },
+
+  // Consumer Technology (D2C Beauty)
+  {
+    id: "363",
+    name: "Foxtale",
+    industrySector: "Consumer Technology",
+    roles: ["Supply Chain Manager", "E-commerce Operations Lead", "Product Development Manager"],
+    operationsFocus: "D2C supply chain; e-commerce logistics",
+    keyCities: ["Mumbai", "Delhi"],
+    helpfulCertifications: ["CSCP", "Six Sigma", "E-commerce Operations"],
+    positioningTips: "Demonstrate expertise in e-commerce logistics and consumer product scaling",
+    website: "https://foxtaleconsumer.com"
+  },
+
+  // Infrastructure
+  {
+    id: "364",
+    name: "Mayasheel Ventures Limited",
+    industrySector: "Infrastructure",
+    roles: ["Project Manager", "Site Operations Manager", "Quality Control Engineer"],
+    operationsFocus: "Infrastructure project execution; highway construction",
+    keyCities: ["Assam", "Manipur", "Nagaland"],
+    helpfulCertifications: ["PMP", "Six Sigma", "Civil Engineering Certifications"],
+    positioningTips: "Emphasize experience in large-scale infrastructure projects and government contracts",
+    website: "Not publicly available"
+  },
+
+  // Investment Banking & Financial Services
+  {
+    id: "365",
+    name: "Equity 360",
+    industrySector: "Financial Services",
+    roles: ["Transaction Advisor", "Financial Analyst", "Business Development Manager"],
+    operationsFocus: "Capital raising; M&A strategy",
+    keyCities: ["Mumbai", "Bengaluru"],
+    helpfulCertifications: ["CFA", "PMP", "Financial Modeling & Valuation Analyst"],
+    positioningTips: "Highlight expertise in deal structuring and investor relations",
+    website: "https://www.equity360.in"
+  }
+
+  // Telecommunications
+  {
+    id: "366",
+    name: "Bharti Airtel",
+    industrySector: "Telecommunications",
+    roles: ["Network Operations Manager", "Customer Service Manager", "IT Project Manager"],
+    operationsFocus: "Mobile and fixed-line telecommunications services",
+    keyCities: ["New Delhi", "Mumbai", "Bengaluru"],
+    helpfulCertifications: ["PMP", "ITIL", "Telecom Certifications"],
+    positioningTips: "Experience in managing large-scale telecom operations and customer service",
+    website: "https://www.airtel.in"
+  },
+
+  // FMCG
+  {
+    id: "367",
+    name: "Hindustan Unilever Limited",
+    industrySector: "FMCG",
+    roles: ["Production Manager", "Quality Control Manager", "Supply Chain Manager"],
+    operationsFocus: "Manufacturing and distribution of consumer goods",
+    keyCities: ["Mumbai", "Kolkata", "Chennai"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001", "Supply Chain Management"],
+    positioningTips: "Expertise in FMCG manufacturing and logistics",
+    website: "https://www.hul.co.in"
+  },
+
+  // Conglomerate
+  {
+    id: "368",
+    name: "ITC Limited",
+    industrySector: "Conglomerate",
+    roles: ["Operations Manager", "Supply Chain Manager", "Project Manager"],
+    operationsFocus: "Diverse operations including food, tobacco, hotels, paper",
+    keyCities: ["Kolkata", "Mumbai", "Delhi"],
+    helpfulCertifications: ["PMP", "Six Sigma", "Hospitality Management"],
+    positioningTips: "Experience in managing multi-sector operations",
+    website: "https://www.itcportal.com"
+  },
+
+  // Cement
+  {
+    id: "369",
+    name: "Shree Cement Limited",
+    industrySector: "Cement",
+    roles: ["Plant Manager", "Production Supervisor", "Quality Control Manager"],
+    operationsFocus: "Cement manufacturing",
+    keyCities: ["New Delhi", "Beawar"],
+    helpfulCertifications: ["Six Sigma", "ISO 9001"],
+    positioningTips: "Experience in cement production and quality management",
+    website: "https://www.shreecement.com"
+  },
+
+  // Electronics Manufacturing
+  {
+    id: "370",
+    name: "Dixon Technologies (India) Limited",
+    industrySector: "Electronics Manufacturing",
+    roles: ["Production Manager", "Quality Assurance Manager", "Supply Chain Manager"],
+    operationsFocus: "Manufacturing of consumer electronics and appliances",
+    keyCities: ["Noida", "Delhi"],
+    helpfulCertifications: ["Lean Manufacturing", "Six Sigma", "ISO 9001"],
+    positioningTips: "Expertise in electronics assembly and supply chain management",
+    website: "https://www.dixontech.com"
+  },
+
+  // Electric Vehicles
+  {
+    id: "371",
+    name: "Ather Energy",
+    industrySector: "Electric Vehicles",
+    roles: ["Product Manager", "Software Engineer", "Operations Manager"],
+    operationsFocus: "Design and manufacturing of electric scooters",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["EV Technology", "Project Management"],
+    positioningTips: "Experience in EV product development and manufacturing",
+    website: "https://www.atherenergy.com"
+  },
+
+  // E-commerce
+  {
+    id: "372",
+    name: "Meesho",
+    industrySector: "E-commerce",
+    roles: ["Product Manager", "Operations Lead", "Supply Chain Manager"],
+    operationsFocus: "Online marketplace for small businesses",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["E-commerce Operations", "Supply Chain Management"],
+    positioningTips: "Experience in scaling e-commerce platforms",
+    website: "https://www.meesho.com"
+  },
+
+  // Food Delivery
+  {
+    id: "373",
+    name: "Zomato",
+    industrySector: "Food Delivery",
+    roles: ["Operations Manager", "Logistics Coordinator", "Customer Service Manager"],
+    operationsFocus: "Food delivery and restaurant aggregation",
+    keyCities: ["Gurgaon", "Bengaluru"],
+    helpfulCertifications: ["Logistics Management", "Customer Service"],
+    positioningTips: "Experience in managing food delivery operations",
+    website: "https://www.zomato.com"
+  },
+
+  // Food Delivery
+  {
+    id: "374",
+    name: "Swiggy",
+    industrySector: "Food Delivery",
+    roles: ["Operations Manager", "Logistics Manager", "Technology Lead"],
+    operationsFocus: "Food delivery services",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Logistics", "Technology Management"],
+    positioningTips: "Expertise in tech-driven food delivery systems",
+    website: "https://www.swiggy.com"
+  },
+
+  // Fintech
+  {
+    id: "375",
+    name: "Groww",
+    industrySector: "Fintech",
+    roles: ["Product Manager", "Risk Analyst", "Compliance Officer"],
+    operationsFocus: "Investment platform for mutual funds and stocks",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Fintech", "Financial Analysis"],
+    positioningTips: "Experience in developing financial products and ensuring compliance",
+    website: "https://groww.in"
+  },
+
+  // Fintech
+  {
+    id: "376",
+    name: "Zerodha Broking Limited",
+    industrySector: "Fintech",
+    roles: ["Trading Operations Manager", "Technology Lead", "Customer Support Manager"],
+    operationsFocus: "Discount brokerage services",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Stock Market Operations", "Technology Management"],
+    positioningTips: "Experience in brokerage operations and technology",
+    website: "https://zerodha.com"
+  },
+
+  // Agritech
+  {
+    id: "377",
+    name: "Ninjacart",
+    industrySector: "Agritech",
+    roles: ["Supply Chain Manager", "Operations Lead", "Technology Manager"],
+    operationsFocus: "Connecting farmers with retailers and consumers",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Supply Chain Management", "Agritech"],
+    positioningTips: "Experience in agritech supply chain and technology",
+    website: "https://ninjacart.in"
+  },
+
+  // Agritech
+  {
+    id: "378",
+    name: "DeHaat",
+    industrySector: "Agritech",
+    roles: ["Field Operations Manager", "Technology Specialist", "Business Development Manager"],
+    operationsFocus: "Providing agricultural inputs and services to farmers",
+    keyCities: ["Gurgaon"],
+    helpfulCertifications: ["Agritech", "Business Development"],
+    positioningTips: "Experience in rural market operations and agritech solutions",
+    website: "https://agrevolution.in"
+  },
+
+  // AI
+  {
+    id: "379",
+    name: "Haptik",
+    industrySector: "AI",
+    roles: ["AI Engineer", "Product Manager", "Data Scientist"],
+    operationsFocus: "Conversational AI and chatbots",
+    keyCities: ["Mumbai"],
+    helpfulCertifications: ["AI/ML", "Product Management"],
+    positioningTips: "Expertise in developing conversational AI solutions",
+    website: "https://www.haptik.ai"
+  },
+
+  // Analytics
+  {
+    id: "380",
+    name: "Fractal Analytics",
+    industrySector: "Analytics",
+    roles: ["Data Scientist", "Analytics Consultant", "Project Manager"],
+    operationsFocus: "Predictive analytics and AI solutions",
+    keyCities: ["Gurgaon"],
+    helpfulCertifications: ["Data Science", "Analytics"],
+    positioningTips: "Experience in delivering analytics projects and solutions",
+    website: "https://www.fractal.ai"
+  },
+
+  // Travel and Hospitality
+  {
+    id: "381",
+    name: "MakeMyTrip",
+    industrySector: "Travel and Hospitality",
+    roles: ["Operations Manager", "Product Manager", "Customer Service Manager"],
+    operationsFocus: "Online travel booking platform",
+    keyCities: ["Gurgaon"],
+    helpfulCertifications: ["Travel Industry", "Customer Service"],
+    positioningTips: "Experience in online travel services and customer engagement",
+    website: "https://www.makemytrip.com"
+  },
+
+  // Entertainment
+  {
+    id: "382",
+    name: "BookMyShow",
+    industrySector: "Entertainment",
+    roles: ["Event Operations Manager", "Marketing Manager", "Technology Lead"],
+    operationsFocus: "Online ticketing for movies and events",
+    keyCities: ["Mumbai"],
+    helpfulCertifications: ["Event Management", "Digital Marketing"],
+    positioningTips: "Experience in managing entertainment ticketing platforms",
+    website: "https://in.bookmyshow.com"
+  },
+
+  // Edtech
+  {
+    id: "383",
+    name: "Unacademy",
+    industrySector: "Edtech",
+    roles: ["Content Creator", "Operations Manager", "Product Manager"],
+    operationsFocus: "Online learning platform",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Edtech", "Content Creation"],
+    positioningTips: "Experience in developing educational content and platforms",
+    website: "https://unacademy.com"
+  },
+
+  // Edtech
+  {
+    id: "384",
+    name: "Byju's",
+    industrySector: "Edtech",
+    roles: ["Education Consultant", "Operations Manager", "Technology Specialist"],
+    operationsFocus: "Providing educational technology and services",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Edtech", "Education Management"],
+    positioningTips: "Experience in scaling edtech solutions",
+    website: "https://byjus.com"
+  }
 ];
 
 
