@@ -4084,11 +4084,8 @@ export const companies: Company[] = [
     helpfulCertifications: ["EV Technology", "Battery Safety", "Lean Manufacturing", "Project Management"],
     positioningTips: "Demonstrate expertise in EV manufacturing, battery production and high‑throughput automation.",
     website: "https://www.olaelectric.com"
-  }
+  },
 
-  import type { Company } from "../types"
-
-// New companies established or significantly active after 2023
   // Artificial Intelligence
   {
     id: "361",
