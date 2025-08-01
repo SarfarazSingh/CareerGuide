@@ -4396,6 +4396,266 @@ export const companies: Company[] = [
     helpfulCertifications: ["Edtech", "Education Management"],
     positioningTips: "Experience in scaling edtech solutions",
     website: "https://byjus.com"
+  },
+
+  // Healthtech
+  {
+    id: "385",
+    name: "Qure.ai",
+    industrySector: "Healthtech",
+    roles: ["AI Engineer", "Medical Data Analyst", "Product Manager"],
+    operationsFocus: "AI-powered diagnostic imaging solutions",
+    keyCities: ["Mumbai", "Bengaluru"],
+    helpfulCertifications: ["AI/ML Certifications", "Healthcare IT", "PMP"],
+    positioningTips: "Expertise in AI-driven healthcare solutions and medical imaging",
+    website: "https://www.qure.ai"
+  },
+
+  // Cleantech
+  {
+    id: "386",
+    name: "ReNew Power",
+    industrySector: "Cleantech",
+    roles: ["Renewable Energy Engineer", "Project Manager", "Sustainability Analyst"],
+    operationsFocus: "Solar and wind energy projects",
+    keyCities: ["Gurgaon", "Bengaluru"],
+    helpfulCertifications: ["Renewable Energy Certifications", "PMP", "LEED"],
+    positioningTips: "Experience in renewable energy project management",
+    website: "https://www.renewpower.in"
+  },
+
+  // Gaming
+  {
+    id: "387",
+    name: "JetSynthesys",
+    industrySector: "Gaming",
+    roles: ["Game Developer", "UI/UX Designer", "Product Manager"],
+    operationsFocus: "Mobile gaming and esports platforms",
+    keyCities: ["Pune", "Mumbai"],
+    helpfulCertifications: ["Unity Certified Developer", "Game Design", "UX Design"],
+    positioningTips: "Expertise in mobile game development and esports",
+    website: "https://www.jetsynthesys.com"
+  },
+
+  // Logistics
+  {
+    id: "388",
+    name: "Delhivery",
+    industrySector: "Logistics",
+    roles: ["Supply Chain Analyst", "Operations Manager", "Technology Lead"],
+    operationsFocus: "E-commerce logistics and last-mile delivery",
+    keyCities: ["Gurgaon", "Bengaluru"],
+    helpfulCertifications: ["CSCP", "Six Sigma", "Logistics Management"],
+    positioningTips: "Experience in e-commerce logistics and supply chain optimization",
+    website: "https://www.delhivery.com"
+  },
+
+  // Spacetech
+  {
+    id: "389",
+    name: "Skyroot Aerospace",
+    industrySector: "Spacetech",
+    roles: ["Aerospace Engineer", "Mission Control Specialist", "Data Scientist"],
+    operationsFocus: "Small satellite launch vehicles",
+    keyCities: ["Hyderabad", "Bengaluru"],
+    helpfulCertifications: ["Aerospace Engineering", "Systems Engineering", "Data Science"],
+    positioningTips: "Expertise in aerospace systems and satellite technology",
+    website: "https://skyroot.in"
+  },
+
+  // Insurtech
+  {
+    id: "390",
+    name: "Acko",
+    industrySector: "Insurtech",
+    roles: ["Product Manager", "Actuarial Analyst", "Technology Lead"],
+    operationsFocus: "Digital-first insurance solutions",
+    keyCities: ["Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Fintech", "Actuarial Science", "PMP"],
+    positioningTips: "Experience in digital insurance products and customer acquisition",
+    website: "https://www.acko.com"
+  },
+
+  // Biotech
+  {
+    id: "391",
+    name: "Bugworks Research",
+    industrySector: "Biotech",
+    roles: ["Biomedical Researcher", "Clinical Trial Manager", "Data Scientist"],
+    operationsFocus: "Antimicrobial resistance drug development",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Biotechnology Certifications", "Clinical Research", "Data Science"],
+    positioningTips: "Expertise in biotech R&D and clinical trials",
+    website: "https://www.bugworksresearch.com"
+  },
+
+  // Edtech (Language Learning)
+  {
+    id: "392",
+    name: "Duolingo India",
+    industrySector: "Edtech",
+    roles: ["Content Developer", "AI Engineer", "Product Manager"],
+    operationsFocus: "Language learning platforms",
+    keyCities: ["Bengaluru", "Pune"],
+    helpfulCertifications: ["Edtech", "AI/ML Certifications", "Content Creation"],
+    positioningTips: "Experience in educational content and AI-driven learning",
+    website: "https://www.duolingo.com"
+  },
+
+  // Agritech
+  {
+    id: "393",
+    name: "Agrizy",
+    industrySector: "Agritech",
+    roles: ["Supply Chain Manager", "Data Analyst", "Field Operations Lead"],
+    operationsFocus: "Agri-processing and farmer connectivity",
+    keyCities: ["Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Agritech", "Supply Chain Management", "Data Analytics"],
+    positioningTips: "Experience in agricultural supply chains and data-driven farming",
+    website: "https://www.agrizy.in"
+  },
+
+  // Foodtech
+  {
+    id: "394",
+    name: "Rebel Foods",
+    industrySector: "Foodtech",
+    roles: ["Operations Manager", "Supply Chain Analyst", "Technology Lead"],
+    operationsFocus: "Cloud kitchens and food delivery",
+    keyCities: ["Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Supply Chain Management", "Food Safety", "Technology Management"],
+    positioningTips: "Expertise in cloud kitchen operations and food delivery logistics",
+    website: "https://www.rebelfoods.com"
+  },
+
+  // Proptech
+  {
+    id: "395",
+    name: "NoBroker",
+    industrySector: "Proptech",
+    roles: ["Product Manager", "Operations Lead", "Data Analyst"],
+    operationsFocus: "Online real estate platform",
+    keyCities: ["Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Real Estate Management", "Data Analytics", "PMP"],
+    positioningTips: "Experience in real estate tech and customer service",
+    website: "https://www.nobroker.in"
+  },
+
+  // Fashiontech
+  {
+    id: "396",
+    name: "Myntra",
+    industrySector: "Fashiontech",
+    roles: ["E-commerce Manager", "UI/UX Designer", "Supply Chain Manager"],
+    operationsFocus: "Online fashion retail",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["E-commerce Operations", "UX Design", "Supply Chain Management"],
+    positioningTips: "Expertise in fashion e-commerce and supply chain",
+    website: "https://www.myntra.com"
+  },
+
+  // Cybersecurity
+  {
+    id: "397",
+    name: "Tac Security",
+    industrySector: "Cybersecurity",
+    roles: ["Cybersecurity Analyst", "Penetration Tester", "Product Manager"],
+    operationsFocus: "Vulnerability management and cybersecurity solutions",
+    keyCities: ["Mumbai", "Pune"],
+    helpfulCertifications: ["CEH", "CISSP", "Cybersecurity Fundamentals"],
+    positioningTips: "Expertise in cybersecurity threat detection and mitigation",
+    website: "https://www.tacsecurity.com"
+  },
+
+  // Retailtech
+  {
+    id: "398",
+    name: "Lenskart",
+    industrySector: "Retailtech",
+    roles: ["Retail Operations Manager", "Product Manager", "Supply Chain Analyst"],
+    operationsFocus: "Omnichannel eyewear retail",
+    keyCities: ["Bengaluru", "Delhi"],
+    helpfulCertifications: ["Retail Management", "Supply Chain Management", "PMP"],
+    positioningTips: "Experience in omnichannel retail and customer experience",
+    website: "https://www.lenskart.com"
+  },
+
+  // Mobility
+  {
+    id: "399",
+    name: "Yulu",
+    industrySector: "Mobility",
+    roles: ["Operations Manager", "Data Analyst", "Product Manager"],
+    operationsFocus: "Electric bike-sharing services",
+    keyCities: ["Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Mobility Solutions", "Data Analytics", "PMP"],
+    positioningTips: "Experience in urban mobility and sustainable transport",
+    website: "https://www.yulu.bike"
+  },
+
+  // Mental Healthtech
+  {
+    id: "400",
+    name: "YourDOST",
+    industrySector: "Mental Healthtech",
+    roles: ["Counselor", "Product Manager", "Technology Lead"],
+    operationsFocus: "Online mental health support platforms",
+    keyCities: ["Bengaluru"],
+    helpfulCertifications: ["Counseling Certifications", "Digital Health", "PMP"],
+    positioningTips: "Expertise in mental health services and digital platforms",
+    website: "https://yourdost.com"
+  },
+
+  // Legaltech
+  {
+    id: "401",
+    name: "Vakilsearch",
+    industrySector: "Legaltech",
+    roles: ["Legal Consultant", "Product Manager", "Technology Lead"],
+    operationsFocus: "Online legal and compliance services",
+    keyCities: ["Chennai", "Bengaluru"],
+    helpfulCertifications: ["Legal Tech", "Compliance Management", "PMP"],
+    positioningTips: "Experience in legal tech and compliance automation",
+    website: "https://vakilsearch.com"
+  },
+
+  // HRtech
+  {
+    id: "402",
+    name: "Darwinbox",
+    industrySector: "HRtech",
+    roles: ["Product Manager", "Software Engineer", "HR Analyst"],
+    operationsFocus: "Cloud-based HR management solutions",
+    keyCities: ["Hyderabad", "Bengaluru"],
+    helpfulCertifications: ["HR Technology", "PMP", "Software Engineering"],
+    positioningTips: "Expertise in HR software and employee engagement",
+    website: "https://darwinbox.com"
+  },
+
+  // Traveltech
+  {
+    id: "403",
+    name: "ixigo",
+    industrySector: "Traveltech",
+    roles: ["Product Manager", "Data Analyst", "Operations Lead"],
+    operationsFocus: "Online travel booking and aggregation",
+    keyCities: ["Gurgaon", "Bengaluru"],
+    helpfulCertifications: ["Travel Industry", "Data Analytics", "PMP"],
+    positioningTips: "Experience in travel tech and customer engagement",
+    website: "https://www.ixigo.com"
+  },
+
+  // Adtech
+  {
+    id: "404",
+    name: "InMobi",
+    industrySector: "Adtech",
+    roles: ["Ad Operations Manager", "Data Scientist", "Product Manager"],
+    operationsFocus: "Mobile advertising and marketing platforms",
+    keyCities: ["Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Digital Marketing", "Data Science", "PMP"],
+    positioningTips: "Expertise in mobile advertising and data-driven marketing",
+    website: "https://www.inmobi.com"
   }
 ];
 
