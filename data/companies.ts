@@ -4656,6 +4656,136 @@ export const companies: Company[] = [
     helpfulCertifications: ["Digital Marketing", "Data Science", "PMP"],
     positioningTips: "Expertise in mobile advertising and data-driven marketing",
     website: "https://www.inmobi.com"
+  },
+  
+  // Defense Tech
+  {
+    id: "405",
+    name: "Tonbo Imaging",
+    industrySector: "Defense Tech",
+    roles: ["Systems Engineer", "Project Manager", "Operations Lead"],
+    operationsFocus: "Thermal imaging and night vision systems for defense",
+    keyCities: ["Bengaluru", "Delhi"],
+    helpfulCertifications: ["Systems Engineering", "PMP", "Defense Technology"],
+    positioningTips: "Highlight military experience in operations and systems integration",
+    website: "https://www.tonboimaging.com"
+  },
+
+  // Green Hydrogen
+  {
+    id: "406",
+    name: "Greenko ZeroC",
+    industrySector: "Green Hydrogen",
+    roles: ["Energy Project Manager", "Operations Supervisor", "Sustainability Analyst"],
+    operationsFocus: "Green hydrogen production and storage",
+    keyCities: ["Hyderabad", "Mumbai"],
+    helpfulCertifications: ["Renewable Energy Certifications", "PMP", "Sustainability Management"],
+    positioningTips: "Emphasize leadership in high-stakes energy projects",
+    website: "https://www.greenkogroup.com"
+  },
+
+  // Drone Technology
+  {
+    id: "407",
+    name: "IdeaForge",
+    industrySector: "Drone Technology",
+    roles: ["Aerospace Engineer", "Field Operations Manager", "Data Analyst"],
+    operationsFocus: "Autonomous drones for surveillance and mapping",
+    keyCities: ["Mumbai", "Bengaluru"],
+    helpfulCertifications: ["Aerospace Engineering", "Drone Pilot Certification", "Data Analytics"],
+    positioningTips: "Leverage military experience in surveillance and logistics",
+    website: "https://www.ideaforge.co.in"
+  },
+
+  // Robotics
+  {
+    id: "408",
+    name: "GreyOrange",
+    industrySector: "Robotics",
+    roles: ["Robotics Engineer", "Operations Manager", "Software Developer"],
+    operationsFocus: "AI-driven warehouse automation robots",
+    keyCities: ["Gurgaon", "Bengaluru"],
+    helpfulCertifications: ["Robotics Engineering", "AI/ML Certifications", "PMP"],
+    positioningTips: "Showcase technical and operational leadership from military roles",
+    website: "https://www.greyorange.com"
+  },
+
+  // Energy Storage
+  {
+    id: "409",
+    name: "Exicom Tele-Systems",
+    industrySector: "Energy Storage",
+    roles: ["Battery Systems Engineer", "Project Manager", "Supply Chain Analyst"],
+    operationsFocus: "Battery management systems for EVs and renewables",
+    keyCities: ["Gurgaon", "Bengaluru"],
+    helpfulCertifications: ["Battery Technology", "PMP", "Supply Chain Management"],
+    positioningTips: "Highlight expertise in managing complex technical projects",
+    website: "https://www.exicom.in"
+  },
+
+  // AI-Driven Logistics
+  {
+    id: "410",
+    name: "Locus.sh",
+    industrySector: "AI-Driven Logistics",
+    roles: ["Operations Lead", "Data Scientist", "Logistics Analyst"],
+    operationsFocus: "AI-optimized supply chain and delivery solutions",
+    keyCities: ["Bengaluru", "Mumbai"],
+    helpfulCertifications: ["Data Science", "Supply Chain Management", "PMP"],
+    positioningTips: "Emphasize logistics and data-driven decision-making skills",
+    website: "https://locus.sh"
+  },
+
+  // Healthtech Analytics
+  {
+    id: "411",
+    name: "HealthPlix",
+    industrySector: "Healthtech Analytics",
+    roles: ["Data Analyst", "Product Manager", "Healthcare Consultant"],
+    operationsFocus: "AI-driven healthcare analytics for doctors",
+    keyCities: ["Bengaluru", "Hyderabad"],
+    helpfulCertifications: ["Healthcare IT", "Data Analytics", "PMP"],
+    positioningTips: "Leverage strategic planning and analytical skills from military experience",
+    website: "https://healthplix.com"
+  },
+
+  // Sustainable Packaging
+  {
+    id: "412",
+    name: "Bambrew",
+    industrySector: "Sustainable Packaging",
+    roles: ["Supply Chain Manager", "Operations Lead", "Sustainability Specialist"],
+    operationsFocus: "Eco-friendly packaging solutions",
+    keyCities: ["Bengaluru", "Delhi"],
+    helpfulCertifications: ["Supply Chain Management", "Sustainability Certifications", "Six Sigma"],
+    positioningTips: "Highlight operational efficiency and sustainability focus",
+    website: "https://www.bambrew.in"
+  },
+
+  // Urban Mobility
+  {
+    id: "413",
+    name: "Tork Motors",
+    industrySector: "Urban Mobility",
+    roles: ["Product Manager", "Operations Manager", "Electrical Engineer"],
+    operationsFocus: "Electric motorcycles for urban transport",
+    keyCities: ["Pune", "Mumbai"],
+    helpfulCertifications: ["EV Technology", "PMP", "Electrical Engineering"],
+    positioningTips: "Showcase leadership in high-stakes mobility projects",
+    website: "https://torkmotors.com"
+  },
+
+  // Petcare
+  {
+    id: "414",
+    name: "Heads Up For Tails",
+    industrySector: "Petcare",
+    roles: ["Supply Chain Manager", "Retail Operations Lead", "Product Developer"],
+    operationsFocus: "Pet products and services",
+    keyCities: ["Delhi", "Bengaluru"],
+    helpfulCertifications: ["Supply Chain Management", "Retail Management", "Product Development"],
+    positioningTips: "Emphasize logistics and retail operations experience",
+    website: "https://headsupfortails.com"
   }
 ];
 
