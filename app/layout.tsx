@@ -1,10 +1,13 @@
-import type { Metadata } from 'next'
 import './globals.css'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Career Guide',
   description: 'A guide to your career opportunities',
-  generator: 'v0.dev',
+  generator: 'Next.js',
   manifest: '/manifest.json',
   themeColor: '#0070f3',
 }
@@ -16,7 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head />
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

@@ -1,6 +1,6 @@
 import nextPwa from 'next-pwa';
 
-/** @type {import('next').NeNextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   eslint: {
